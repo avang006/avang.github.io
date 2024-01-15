@@ -20,7 +20,7 @@ body
   margin-left: auto;
   margin-right: auto;
 }
-.figcap
+figcaption
 {
   text-align: center;
   margin-right: auto;
@@ -32,11 +32,10 @@ body
   margin-right: auto;
   margin-left: auto;
 }
-.foot
+footer
 {
   position: fixed;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  text-align: center;
 }
