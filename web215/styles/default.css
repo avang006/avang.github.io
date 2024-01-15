@@ -1,1 +1,8 @@
-
+body
+{
+  margin: 300px;
+  font-family: century gothic;
+  color: black;
+  background-color: purple;
+  font-size: 50%;
+}
