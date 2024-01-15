@@ -1,8 +1,12 @@
 body
 {
   margin: 100px;
-  font-family: century gothic;
+  font-family: Palatino;
   color: black;
   background-color: #CDB7F6;
   font-size: 100%;
+}
+h1
+{
+  font-family: Impact;
 }
