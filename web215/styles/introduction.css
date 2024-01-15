@@ -4,11 +4,15 @@ body
   color: black;
   background-color: #CDB7F6;
   font-size: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 .header, .nav
 {
   font-family: Georgia;
   text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 .info
 {
@@ -19,10 +23,14 @@ body
 .figcap
 {
   text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 .img
 {
   text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 .footer
 {
