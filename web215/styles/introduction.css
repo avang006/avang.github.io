@@ -5,12 +5,11 @@ body
   background-color: #CDB7F6;
   font-size: 100%;
 }
-h1, .header, .nav
+.header, .nav
 {
   font-family: Georgia;
   text-align: center;
 }
-
 .info
 {
   text-align: left;
@@ -18,7 +17,6 @@ h1, .header, .nav
   margin-left: auto;
   margin-right: auto;
 }
-
 .footer
 {
   position: fixed;
