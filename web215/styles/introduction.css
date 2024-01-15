@@ -13,7 +13,8 @@ body
 .info
 {
   text-align: left;
-  width: 20%;
+  width: 700px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
 }
