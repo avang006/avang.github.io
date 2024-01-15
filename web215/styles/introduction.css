@@ -1,15 +1,10 @@
 body
 {
-  margin: 200px;
   font-family: Tahoma;
   color: black;
   background-color: #CDB7F6;
   font-size: 100%;
-}
-.content{
-  max-width: 500px;
-  margin: auto;
-}
+  text-align: center;
 }
 h1
 {
