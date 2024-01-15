@@ -1,10 +1,11 @@
 body
 {
-  margin: 100px;
+  margin: 200px;
   font-family: Tahoma;
   color: black;
   background-color: #CDB7F6;
   font-size: 100%;
+  font-align: center;
 }
 h1
 {
