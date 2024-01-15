@@ -16,7 +16,11 @@ body
   margin-left: auto;
   margin-right: auto;
 }
-figcaption
+.figcap
+{
+  text-align: center;
+}
+.img
 {
   text-align: center;
 }
