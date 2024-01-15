@@ -1,36 +1,38 @@
 body  {
-  font-family: Tahoma;
-  color: black;
-  background-color: #CDB7F6;
-  font-size: 100%;
-  margin-right: auto;
-  margin-left: auto;
+	font-family: Tahoma;
+	color: black;
+	background-color: #CDB7F6;
+	font-size: 100%;
+	margin-right: auto;
+	margin-left: auto;
 }
 .header, .nav  {
-  font-family: Georgia;
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
+	font-family: Georgia;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
 }
 .info  {
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
 }
 h2 {
 	text-align: center;
 }
 figure {
-  display: inline-block;
-  text-align: center;
-  border: none;
-  margin: 5px; /* adjust as needed */
+	display: inline-block;
+	text-align: center;
+	border: none;
+	margin-right: auto;
+	margin-left: auto;
+	
 }
 figure img {
-  vertical-align: top;
+	vertical-align: top;
 }
 figure figcaption {
-  border: none;
+	border: none;
 }
 footer {
 	width: 100%;
