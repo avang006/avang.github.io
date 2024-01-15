@@ -1,6 +1,9 @@
 body
 {
-  margin-top: 200px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
   font-family: Tahoma;
   color: black;
   background-color: #CDB7F6;
