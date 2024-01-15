@@ -7,16 +7,16 @@ body
   font-size: 100%;
   text-align: center;
 }
-.h1
+h1
 {
   font-family: Georgia;
   text-align: center;
 }
-.img
+img
 {
   align: center;
 }
-.footer
+footer
 {
   text-align: center;
   margin: auto 0;
