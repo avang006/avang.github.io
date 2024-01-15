@@ -20,22 +20,10 @@ body  {
 h2 {
 	text-align: center;
 }
-figure {
-	display: inline-block;
+.image	{
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
-	border: none;
-	margin-right: auto;
-	margin-left: auto;	
-}
-figure img {
-	vertical-align: top;
-	margin-right: auto;
-	margin-left: auto;
-}
-figure figcaption {
-	border: none;
-	margin-right: auto;
-	margin-left: auto;
 }
 footer {
 	width: 100%;
