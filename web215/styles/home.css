@@ -10,6 +10,10 @@ body
   font-size: 100%;
   text-align: center;
 }
+a
+{
+	color: #663399;
+}
 h1
 {
   font-family: Georgia;
