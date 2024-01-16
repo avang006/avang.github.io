@@ -1,10 +1,13 @@
-body  {
+body {
 	font-family: Tahoma;
 	color: black;
 	background-color: #CDB7F6;
 	font-size: 100%;
 	margin-right: auto;
 	margin-left: auto;
+}
+a {
+	color: #663399;
 }
 .header, .nav  {
 	font-family: Georgia;
