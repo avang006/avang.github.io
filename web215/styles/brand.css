@@ -1,7 +1,7 @@
 body
 {
-  left-margin: auto;
-  right-margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   font-family: Georgia;
   color: #8d847e;
   background-color: #f0e8e2;
