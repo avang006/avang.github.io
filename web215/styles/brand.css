@@ -1,89 +1,92 @@
 body	{
   	margin-left: auto;
   	margin-right: auto;
-	flex-direction: column;
-    	display: flex;
+	  flex-direction: column;
+    display: flex;
   	font-family: Calibri;
   	color: #eBF2F1;
   	background-color: #7dbfb3;
   	font-size: 100%;
-    	min-height: 100vh;
+    min-height: 100vh;
 }
 #heading	{
 	margin-left: auto;
-  	margin-right: auto;
-  	color: #eBF2F1;
-  	font-family: Palatino;
+  margin-right: auto;
+  color: #eBF2F1;
+  font-family: Palatino;
 	text-align: center;
-  	font-size: 75%;
+  font-size: 100%;
 }
 .navlink  {
-  	text-decoration: none;
-  	text-align: center;
-  	padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
  }
 
  #colorblock {
-   	background-color: #194659;
-   	width: auto;
-   	height: 40px;
+   background-color: #194659;
+   width: auto;
+   height: 40px;
  }
 
 a:link {
-  	color: #eBF2F1;
-  	background-color: transparent;
-  	text-decoration: none;
+  color: #eBF2F1;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 a:visited {
-  	color: #a9f3e6;
-  	background-color: transparent;
-  	text-decoration: strikethrough;
+  color: #a9f3e6;
+  background-color: transparent;
+  text-decoration: strikethrough;
 }
 
 a:hover {
-	color: #4F7369;
-	background-color: transparent;
-	text-decoration: underline dotted;
+  color: #4F7369;
+  background-color: transparent;
+  text-decoration: underline dotted;
 }
 
 a:active {
-	color: #eBF2F1;
-	background-color: transparent;
-	text-decoration: underline overline #194659;
+  color: #eBF2F1;
+  background-color: transparent;
+  text-decoration: underline overline #194659;
 }
 #bodyblock  {
-  	background: transparent;
-  	border: 1px solid #194659;
-  	height: 100px;
-  	position: relative;
-  	width: 500px;
-	margin-left: auto;
-  	margin-right: auto;
- 	margin-top: 5px;
-  	padding: 10px;
+  background: transparent;
+  border: 1px solid #194659;
+  height: 400px;
+  position: relative;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  padding: 10px;
 }
 #bodyblock::after  {
-  	border: 3px solid #194659;
-  	content: '';
-  	display: block;
-  	filter: blur(2px);
-  	height: 100%;
-  	left: 0;
-  	position: absolute;
-  	top: 0;
-  	width: 100%;
+  border: 3px solid #194659;
+  content: '';
+  display: block;
+  filter: blur(2px);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+h2 {
+  font-family: georgia;
 }
 #footcolor{
-  	background-color: #194659;
-  	width: auto;
-  	height: 150px;
- 	margin-top: auto;
-  	text-align: center;
+  background-color: #194659;
+  width: auto;
+  height: 150px;
+  margin-top: auto;
+  text-align: center;
 }
 footer {
 	width: 100%;
-  	margin-top: auto;
+  margin-top: auto;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
