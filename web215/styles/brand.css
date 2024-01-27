@@ -47,6 +47,7 @@ a:link {
   color: #eBF2F1;
   background-color: transparent;
   text-decoration: none;
+  font-family: BAHNSCHRIFT light;
 }
 
 a:visited {
@@ -66,6 +67,42 @@ a:active {
   background-color: transparent;
   text-decoration: underline overline #194659;
 }
+#page_wrapper {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #7dbfb3;
+}
+nav {
+    height: 50px;
+    background-color: #194659;
+    text-align: center;
+}
+
+nav ul {
+    margin-left: auto;
+    margin-right: auto;
+}
+nav li {
+    display: inline-block;
+    height: 100%;
+    padding: 10px;
+}
+nav li a {
+    font-family: cursive;
+    color: #ff1e4b;
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+
+nav li a:hover {
+    color: #dd5771;
+}
+
 #bodyblock  {
   background: transparent;
   border: 1px solid #194659;
@@ -92,8 +129,6 @@ a:active {
   width: 700px;
   height: 200px;
   padding-bottom: 30px;
-	margin-left: auto;
-	margin-right: auto;
 }
 h2{
   font-family: countryside;
@@ -104,7 +139,7 @@ h2{
 #footcolor{
   background-color: #194659;
   width: auto;
-  height: 150px;
+  height: 150%;
   margin-top: auto;
   text-align: center;
 }
