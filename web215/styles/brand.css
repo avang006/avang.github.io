@@ -106,7 +106,7 @@ nav li a:hover {
   width: 700px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5px;
+  margin-top: 0px;
   padding: 10px;
 }
 #bodyblock::after  {
@@ -136,6 +136,42 @@ h2{
   margin-top: -105px;
   padding-left: 155px;
 }
+.column {
+  float: left;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+.color-boxone {
+  background-color: #7dbfb3;
+  border: solid black;
+  width: 100px;
+  height: 50px;
+}
+.color-boxtwo {
+  background-color: #194659;
+  border: solid black;
+  width: 100px;
+  height: 50px;
+}
+.color-boxthree {
+  background-color: #eBF2F1;
+  border: solid black;
+  width: 100px;
+  height: 50px;
+}
+.color-boxfour {
+  background-color: #4f7369;
+  border: solid black;
+  width: 100px;
+  height: 50px;
+}
+
 #footcolor{
   background-color: #194659;
   width: auto;
