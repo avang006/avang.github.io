@@ -129,6 +129,8 @@ nav li a:hover {
   width: 700px;
   height: 200px;
   padding-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
 }
 h2{
   font-family: countryside;
