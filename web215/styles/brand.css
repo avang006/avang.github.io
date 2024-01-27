@@ -55,7 +55,7 @@ a:active {
 #bodyblock  {
   	background: transparent;
   	border: 1px solid #194659;
-  	height: 400px;
+  	height: auto;
   	position: relative;
   	width: 700px;
   	margin-left: auto;
