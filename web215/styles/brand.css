@@ -37,12 +37,6 @@ body	{
   padding: 10px;
  }
 
- #colorblock {
-   background-color: #194659;
-   width: auto;
-   height: 40px;
- }
-
 a:link {
   color: #eBF2F1;
   background-color: transparent;
@@ -75,12 +69,12 @@ a:active {
 
 header {
     background-color: #7dbfb3;
-	width: auto;
 }
 nav {
     height: 50px;
     background-color: #194659;
     text-align: center;
+    width: 100%
 }
 
 nav ul {
@@ -130,8 +124,8 @@ nav li a:hover {
   width: 700px;
   height: 200px;
   padding-bottom: 30px;
-	margin-left: auto;
-	margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 h2{
   font-family: countryside;
