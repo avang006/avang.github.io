@@ -7,11 +7,12 @@ body	{
   	background-color: #7dbfb3;
   	font-size: 100%;
 }
-#header	{
+#heading	{
 	margin-left: auto;
   	margin-right: auto;
   	font-color: #8d8c71;
   	font-family: Tahoma;
+	text-align: center;
 }
 a:link {
   color: #194659;
