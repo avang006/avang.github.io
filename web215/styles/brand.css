@@ -75,6 +75,7 @@ a:active {
 
 header {
     background-color: #7dbfb3;
+	width: auto;
 }
 nav {
     height: 50px;
