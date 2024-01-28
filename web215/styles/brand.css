@@ -30,7 +30,6 @@ body	{
   font-family: Palatino;
 	text-align: center;
   font-size: 100%;
-	width: 100%;
 }
 .navlink  {
   text-decoration: none;
@@ -41,7 +40,7 @@ body	{
 a:link {
   color: #eBF2F1;
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: underline dotted;
   font-family: BAHNSCHRIFT light;
 }
 
@@ -73,14 +72,16 @@ header {
 }
 nav {
     height: 50px;
-    background-color: #194659;
+    background-color: #7dbfb3;
     text-align: center;
-    width: 100%
+    width: 100%;
 }
 
 nav ul {
     margin-left: auto;
     margin-right: auto;
+    background-color: #194659;
+    width: 100%;
 }
 nav li {
     display: inline-block;
@@ -99,28 +100,6 @@ nav li a:hover {
     color: #dd5771;
 }
 
-#bodyblock  {
-  background: transparent;
-  border: 1px solid #194659;
-  height: auto;
-  position: relative;
-  width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0px;
-  padding: 10px;
-}
-#bodyblock::after  {
-  border: 3px solid #194659;
-  content: '';
-  display: block;
-  filter: blur(2px);
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
 .banner {
   width: 700px;
   height: 300px;
@@ -128,11 +107,24 @@ nav li a:hover {
   margin-left: auto;
   margin-right: auto;
 }
+
 h2{
   font-family: countryside;
   text-align: left;
   font-size: 80px;
+  margin-right: auto;
+  margin-left: auto;
  }
+#bodybox  {
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  text-align: center;
+}
+.goal{
+  text-align: center;
+}
 #pbanner {
   margin-top: -105px;
   padding-left: 155px;
@@ -148,29 +140,41 @@ h2{
 .right {
   width: 50%;
 }
+#colorboxes  {
+  margin-left: 75px;
+  width: 500px;
+  height: 60px;
+}
 .color-boxone {
   background-color: #7dbfb3;
   border: solid black;
   width: 100px;
-  height: 50px;
+  height: 60px;
+  float: left;
 }
 .color-boxtwo {
   background-color: #194659;
   border: solid black;
   width: 100px;
   height: 50px;
+  padding: 5px;
+  float: left;
 }
 .color-boxthree {
   background-color: #eBF2F1;
   border: solid black;
   width: 100px;
   height: 50px;
+  padding: 5px;
+  float: left;
 }
 .color-boxfour {
   background-color: #4f7369;
   border: solid black;
   width: 100px;
   height: 50px;
+  padding: 5px;
+  float: left;
 }
 
 #footcolor{
