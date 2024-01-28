@@ -102,9 +102,11 @@ nav li a:hover {
   }
 #mhead  {
     text-align: left;
+	font-family: BAHNSCHRIFT light;
   }
 #mission{
   text-align: left;
+	font-family: BAHNSCHRIFT light;
 }
 #header  {
   color: #194659;
