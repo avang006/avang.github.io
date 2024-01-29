@@ -156,6 +156,7 @@ nav li a:hover {
 }
 #personal	{
 	font-syle: italic;
+	text-align: center;
 }
 .country {
   font-family: countryside;
