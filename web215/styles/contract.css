@@ -23,6 +23,9 @@ body	{
   	font-size: 100%;
     min-height: 100vh;
 }
+#header: {
+  color: #eBF2F1;
+}
 #heading	{
 	margin-left: auto;
   margin-right: auto;
@@ -96,38 +99,13 @@ nav li a {
 nav li a:hover {
     color: #4F7369;
 }
-.guide  {
-  text-align: center;
-  color: #194659;
-  }
 #mhead  {
     text-align: left;
 	font-family: countryside;
   }
-#mission{
-  text-align: left;
-	font-family: BAHNSCHRIFT light;
-}
 #header  {
   color: #194659;
 }
-.banner {
-  width: 700px;
-  height: 170px;
-  margin-left: auto;
-  margin-right: auto;
-  z-index: 2;
-  text-align: left;
-  
-}
-#brandname {
-  font-family: countryside;
-  text-align: left;
-  font-size: 80px;
-  margin-right: auto;
-  margin-left: auto;
-
- }
 #bodyblock  {
   background: #EBF2F1;
   border: 1px solid #194659;
@@ -155,81 +133,9 @@ nav li a:hover {
 h2{
   font-family: countryside;
 }
-.column {
-  float: left;
-  width: 50%;
+#namelink {
+  color: #194659;
 }
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.column ul {
-  text-align: left;
-}
-.column li {
-  text-align: left;
-}
-.goal{
-  text-align: center;
-}
-#font{
-  text-align: left;
-  margin-left: 20px;
-}
-#personal	{
-	font-style: italic;
-	text-align: center;
-}
-.country {
-  font-family: countryside;
-}
-.bahn {
-  font-family: BAHNSCHRIFT light;
-}
-#colorboxes  {
-  margin-left: auto;
-  margin-right: auto;
-  width: 460px;
-  height: 60px;
-}
-.color-boxone {
-  background-color: #7dbfb3;
-  border: solid black;
-  width: 100px;
-  height: 50px;
-  padding: 5px;
-  float: left;
-  color: #000000;
-}
-.color-boxtwo {
-  background-color: #eBF2F1;
-  border: solid black;
-  width: 100px;
-  height: 50px;
-  padding: 5px;
-  float: left;
-  color: #000000;
-}
-.color-boxthree {
-  background-color: #4f7369;
-  border: solid black;
-  width: 100px;
-  height: 50px;
-  padding: 5px;
-  float: left;
-  color: #000000;
-}
-.color-boxfour {
-  background-color: #194659;
-  border: solid black;
-  width: 100px;
-  height: 50px;
-  padding: 5px;
-  float: left;
-  color: #000000;
-}
-
 #footcolor{
   background-color: #194659;
   width: auto;
