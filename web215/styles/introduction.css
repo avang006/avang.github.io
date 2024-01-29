@@ -1,35 +1,134 @@
-body {
-	font-family: Tahoma;
-	color: black;
-	background-color: #CDB7F6;
-	font-size: 100%;
-	margin-right: auto;
+@font-face {
+  font-family: BAHNSCHRIFT light;
+  font-style: normal;
+  font-weight: 400;
+  src: local("BAHNSCHRIFT light"), url("https://avang006.github.io/components/BAHNSCHRIFT.TTF");
+}
+
+@font-face {
+  font-family: countryside;
+  font-style: normal;
+  font-weight: 400;
+  src: local("countryside"), url("https://avang006.github.io/components/COUNTRYSIDE-YDKJ.TTF");
+}
+
+body	{
+  	margin-left: auto;
+  	margin-right: auto;
+	  flex-direction: column;
+    display: flex;
+  	font-family: BAHNSCHRIFT light;
+  	color: #194759;
+  	background-color: #7dbfb3;
+  	font-size: 100%;
+    min-height: 100vh;
+}
+#header: {
+  color: #eBF2F1;
+}
+#heading	{
 	margin-left: auto;
-}
-a {
-	color: #663399;
-}
-.header, .nav  {
-	font-family: Georgia;
+  margin-right: auto;
+  color: #eBF2F1;
+  font-family: Palatino;
 	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
+  font-size: 100%;
 }
-.info  {
-	text-align: left;
-	margin-left: auto;
-	margin-right: auto;
+#page_wrapper {
+    width: 200%;
+    max-width: 1024px;
+    margin: 0 auto;
 }
-.image	{
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
+a:link {
+  color: #eBF2F1;
+  background-color: transparent;
+  text-decoration: underline dotted;
+  font-family: BAHNSCHRIFT light;
+}
+
+a:visited {
+  color: #eBF2F1;
+  background-color: transparent;
+  text-decoration: strikethrough;
+}
+
+a:hover {
+  color: #4F7369;
+  background-color: transparent;
+  text-decoration: underline dotted;
+}
+
+a:active {
+  color: #eBF2F1;
+  background-color: transparent;
+  text-decoration: underline overline #eBF2F1;
+}
+header {
+    background-color: #7dbfb3;
+}
+nav {
+    height: 50px;
+    background-color: #7dbfb3;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #194659;
+    width: 100%;
+}
+nav li {
+    display: inline-block;
+    height: 100%;
+    padding: 10px;
+}
+nav li a {
+    font-family: cursive;
+    color: #eBF2F1;
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+nav li a:hover {
+    color: #4F7369;
+}
+#bodyblock  {
+  background: #EBF2F1;
+  border: 1px solid #194659;
+  height: auto;
+  position: relative;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 0px;
+  padding: 10px;
+  text-align: center;
+
+}
+h2{
+  font-family: countryside;
+}
+#namelink {
+  color: #194659;
+}
+.info{
+  text-align: left;
+}
+#footcolor{
+  background-color: #194659;
+  width: 100%;
+  height: 150%;
+  margin-top: auto;
+  text-align: center;
 }
 footer {
 	width: 100%;
-	margin-top: auto;
+  margin-top: auto;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: auto;
 	text-align: center;
+	
 }
