@@ -141,17 +141,7 @@ nav li a:hover {
   padding: 10px;
   text-align: center;
 }
-#bodyblock::after  {
-  border: 3px solid #194659;
-  content: '';
-  display: block;
-  filter: blur(2px);
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
+
 h2{
   font-family: countryside;
 }
