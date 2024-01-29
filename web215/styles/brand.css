@@ -26,7 +26,7 @@ body	{
 #heading	{
 	margin-left: auto;
   margin-right: auto;
-  color: #eBF2F1;
+  color: #d9ecf5;
   font-family: Palatino;
 	text-align: center;
   font-size: 100%;
@@ -42,14 +42,14 @@ body	{
     margin: 0 auto;
 }
 a:link {
-  color: #eBF2F1;
+  color: #d9ecf5;
   background-color: transparent;
   text-decoration: underline dotted;
   font-family: BAHNSCHRIFT light;
 }
 
 a:visited {
-  color: #eBF2F1;
+  color: #d9ecf5;
   background-color: transparent;
   text-decoration: strikethrough;
 }
@@ -61,7 +61,7 @@ a:hover {
 }
 
 a:active {
-  color: #eBF2F1;
+  color: #d9ecf5;
   background-color: transparent;
   text-decoration: underline overline #eBF2F1;
 }
@@ -88,7 +88,7 @@ nav li {
 }
 nav li a {
     font-family: cursive;
-    color: #eBF2F1;
+    color: #d9ecf5;
     font-size: 16px;
     text-decoration: none;
     
@@ -218,7 +218,9 @@ h2{
   float: left;
   color: #000000;
 }
-
+#etag{
+	color: #d9ecf5;
+}
 #footcolor{
   background-color: #194659;
   width: auto;
