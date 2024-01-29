@@ -9,7 +9,7 @@
   font-family: countryside;
   font-style: normal;
   font-weight: 400;
-  src: local("countrysidet"), url("https://avang006.github.io/components/COUNTRYSIDE-YDKJ.TTF");
+  src: local("countryside"), url("https://avang006.github.io/components/COUNTRYSIDE-YDKJ.TTF");
 }
 
 body	{
@@ -102,7 +102,7 @@ nav li a:hover {
   }
 #mhead  {
     text-align: left;
-	font-family: BAHNSCHRIFT light;
+	font-family: countryside;
   }
 #mission{
   text-align: left;
@@ -151,6 +151,9 @@ nav li a:hover {
   position: absolute;
   top: 0;
   width: 100%;
+}
+h2{
+  font-family: countryside;
 }
 .column {
   float: left;
