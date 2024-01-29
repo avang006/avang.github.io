@@ -34,11 +34,6 @@ body	{
 	text-align: center;
   font-size: 100%;
 }
-.navlink  {
-  text-decoration: none;
-  text-align: center;
-  padding: 10px;
- }
 #page_wrapper {
     width: 200%;
     max-width: 1024px;
