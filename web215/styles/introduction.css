@@ -49,7 +49,7 @@ a:link {
 a:visited {
   color: #d9ecf5;
   background-color: transparent;
-  text-decoration: strikethrough;
+   text-decoration: line-through;
 }
 
 a:hover {
