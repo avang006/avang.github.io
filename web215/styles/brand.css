@@ -31,6 +31,9 @@ body	{
 	text-align: center;
   font-size: 100%;
 }
+.info{
+  text-align: left;
+}
 .navlink  {
   text-decoration: none;
   text-align: center;
@@ -166,9 +169,12 @@ h2{
   text-align: left;
   margin-left: 20px;
 }
-#personal	{
+.personal	{
 	font-style: italic;
 	text-align: center;
+}
+#namelink {
+  color: #194659;
 }
 .country {
   font-family: countryside;
@@ -179,13 +185,13 @@ h2{
 #colorboxes  {
   margin-left: auto;
   margin-right: auto;
-  width: 460px;
+  width: 500px;
   height: 60px;
 }
 .color-boxone {
   background-color: #7dbfb3;
   border: solid black;
-  width: 100px;
+  width: 150px;
   height: 50px;
   padding: 5px;
   float: left;
@@ -194,7 +200,7 @@ h2{
 .color-boxtwo {
   background-color: #d9ecf5;
   border: solid black;
-  width: 100px;
+  width: 150px;
   height: 50px;
   padding: 5px;
   float: left;
@@ -203,7 +209,7 @@ h2{
 .color-boxthree {
   background-color: #4f7369;
   border: solid black;
-  width: 100px;
+  width: 150px;
   height: 50px;
   padding: 5px;
   float: left;
@@ -212,11 +218,11 @@ h2{
 .color-boxfour {
   background-color: #194659;
   border: solid black;
-  width: 100px;
+  width: 476px;
   height: 50px;
   padding: 5px;
   float: left;
-  color: #000000;
+  color: #ffffff;
 }
 #etag{
 	color: #d9ecf5;
