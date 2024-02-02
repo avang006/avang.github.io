@@ -105,11 +105,9 @@ nav li a:hover {
 }
 #brandname {
   font-family: countryside;
-  text-align: left;
-  margin-right: auto;
-  margin-left: auto;
-
+  text-align: center;
  }
+
 #bodyblock  {
   background: #d9ecf5;
   border: 1px solid #194659;
@@ -119,7 +117,7 @@ nav li a:hover {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
-  margin-top: 0px;
+  margin-top: 50px;
   padding: 10px;
   text-align: center;
 
