@@ -15,8 +15,8 @@
 body	{
   	margin-left: auto;
   	margin-right: auto;
-	  flex-direction: column;
-    display: flex;
+	flex-direction: column;
+    	display: flex;
   	font-family: BAHNSCHRIFT light;
   	color: #194759;
   	background-color: #7dbfb3;
@@ -143,7 +143,10 @@ nav li a:hover {
   padding: 10px;
   text-align: center;
 }
-
+#personal	{
+	font-style: italic;
+	text-align: center;
+}
 h2{
   font-family: countryside;
 }
