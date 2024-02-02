@@ -11,7 +11,7 @@
   font-weight: 400;
   src: local("countryside"), url("https://avang006.github.io/components/COUNTRYSIDE-YDKJ.TTF");
 }
-#personal	{
+.personal	{
 	font-style: italic;
 	text-align: center;
 }
