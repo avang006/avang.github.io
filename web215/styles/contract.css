@@ -87,7 +87,7 @@ nav li {
     height: 100%;
     padding: 10px;
 }
-nav li a {
+nav li a: {
     font-family: cursive;
     color: #d9ecf5;
     font-size: 16px;
@@ -131,7 +131,7 @@ nav li a:hover {
 h2{
   font-family: countryside;
 }
-p {
+.pbody {
   text-align: left;
 }
 #namelink {
