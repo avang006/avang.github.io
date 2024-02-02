@@ -133,6 +133,10 @@ h2{
 #etag	{
 	color: #d9ecf5;
 }
+#personal	{
+	font-style: italic;
+	text-align: center;
+}
 #footcolor{
   background-color: #194659;
   width: 100%;
