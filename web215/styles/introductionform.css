@@ -1,0 +1,284 @@
+@font-face {
+  font-family: BAHNSCHRIFT light;
+  font-style: normal;
+  font-weight: 400;
+  src: local("BAHNSCHRIFT light"), url("https://avang006.github.io/components/BAHNSCHRIFT.TTF");
+}
+
+@font-face {
+  font-family: countryside;
+  font-style: normal;
+  font-weight: 400;
+  src: local("countryside"), url("https://avang006.github.io/components/COUNTRYSIDE-YDKJ.TTF");
+}
+
+body	{
+  	margin-left: auto;
+  	margin-right: auto;
+	  flex-direction: column;
+    display: flex;
+  	font-family: BAHNSCHRIFT light;
+  	color: #194759;
+  	background-color: #7dbfb3;
+  	font-size: 100%;
+    min-height: 100vh;
+}
+#heading  {
+	margin-left: auto;
+  margin-right: auto;
+  color: #d9ecf5;
+  font-family: Palatino;
+	text-align: center;
+  font-size: 100%;
+}
+.info{
+  text-align: left;
+}
+.navlink  {
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+ }
+#page_wrapper {
+    width: 200%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+a:link {
+  color: #d9ecf5;
+  background-color: transparent;
+  text-decoration: underline dotted;
+  font-family: BAHNSCHRIFT light;
+}
+
+a:visited {
+  color: #d9ecf5;
+  background-color: transparent;
+  text-decoration: line-through;
+}
+
+a:hover {
+  color: #4F7369;
+  background-color: transparent;
+  text-decoration: underline dotted;
+}
+
+a:active {
+  color: #d9ecf5;
+  background-color: transparent;
+  text-decoration: underline overline #eBF2F1;
+}
+header {
+    background-color: #7dbfb3;
+}
+nav {
+    height: 50px;
+    background-color: #7dbfb3;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #194659;
+    width: 100%;
+}
+nav li {
+    display: inline-block;
+    height: 100%;
+    padding: 10px;
+}
+nav li a {
+    font-family: cursive;
+    color: #d9ecf5;
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+nav li a:hover {
+    color: #4F7369;
+}
+.guide  {
+  text-align: center;
+  color: #194659;
+  }
+#mhead  {
+    text-align: left;
+	font-family: countryside;
+  }
+#mission{
+  text-align: left;
+	font-family: BAHNSCHRIFT light;
+}
+#header  {
+  color: #194659;
+}
+.banner {
+  width: 700px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
+  text-align: left;
+  
+}
+#brandname {
+  font-family: countryside;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+
+ }
+#bodyblock  {
+  background: #d9ecf5;
+  border: 1px solid #194659;
+  height: auto;
+  position: relative;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  margin-top: -36px;
+  padding: 10px;
+  text-align: center;
+}
+input[type=submit] {
+  background-color: #194659;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  font-family: BAHNSCHRIFT light;
+}
+#form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: auto;
+  text-align: left;
+  
+}
+.col-75 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-25 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+input[type=submit]:hover {
+  background-color: #4f7369;
+}
+h2{
+  font-family: countryside;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.subject{
+  font-family: BAHNSCHRIFT light;
+}
+.column ul {
+  text-align: left;
+}
+.column li {
+  text-align: left;
+}
+.goal{
+  text-align: center;
+}
+#font{
+  text-align: left;
+  margin-left: 20px;
+}
+.personal	{
+	font-style: italic;
+	text-align: center;
+}
+#namelink {
+  color: #194659;
+}
+.country {
+  font-family: countryside;
+}
+.bahn {
+  font-family: BAHNSCHRIFT light;
+}
+#colorboxes  {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 60px;
+}
+.color-boxone {
+  background-color: #7dbfb3;
+  border: solid black;
+  width: 150px;
+  height: 50px;
+  padding: 5px;
+  float: left;
+  color: #000000;
+}
+.color-boxtwo {
+  background-color: #d9ecf5;
+  border: solid black;
+  width: 150px;
+  height: 50px;
+  padding: 5px;
+  float: left;
+  color: #000000;
+}
+.color-boxthree {
+  background-color: #4f7369;
+  border: solid black;
+  width: 150px;
+  height: 50px;
+  padding: 5px;
+  float: left;
+  color: #000000;
+}
+.color-boxfour {
+  background-color: #194659;
+  border: solid black;
+  width: 476px;
+  height: 50px;
+  padding: 5px;
+  float: left;
+  color: #ffffff;
+}
+#etag{
+	color: #d9ecf5;
+}
+
+#footcolor{
+  background-color: #194659;
+  width: auto;
+  height: 150%;
+  margin-top: auto;
+  text-align: center;
+}
+footer {
+	width: 100%;
+  margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+}
