@@ -8,6 +8,13 @@ function formSubmit() {
   	var funFact = document.getElementById('funfact').value;
  	 var addFact = document.getElementById('addfact').value;
  	 document.getElementById('jsLoop').innerHTML =
-		 (fullName + personalBkg + profession + academicBkg + computer + courses + funFact + addFact)
+		 (fullName)
+	document.getElementById('jsLoop').innerHTML = (personalBkg);
+	document.getElementById('jsLoop').innerHTML = (profession);
+	document.getElementById('jsLoop').innerHTML = (academicBkg);
+	document.getElementById('jsLoop').innerHTML = (computer);
+	document.getElementById('jsLoop').innerHTML = (courses);
+	document.getElementById('jsLoop').innerHTML = (funFact);
+	document.getElementById('jsLoop').innerHTML = (addFact);
 }
 
