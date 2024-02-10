@@ -7,7 +7,7 @@ function formSubmit() {
   	var courses = document.getElementById('education').value;
   	var funFact = document.getElementById('funfact').value;
  	 var addFact = document.getElementById('addfact').value;
- 	 document.querySelector('main').innerHTML = `
+ 	 document.querySelector('jsloop').innerHTML = `
           	<div class="bodyblock">
           	<ul>
           	  <li><b>Personal background: </b>${ personalBkg}</li>
