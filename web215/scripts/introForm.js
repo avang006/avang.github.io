@@ -7,8 +7,7 @@ function formSubmit() {
   	var courses = document.getElementById('education').value;
   	var funFact = document.getElementById('funfact').value;
  	 var addFact = document.getElementById('addfact').value;
- 	 document.getElementById('jsLoop').innerHTML =
-		 (fullName)
+ 	 document.getElementById('jsLoop').innerHTML = (fullName)
 	document.getElementById('jsLoop').innerHTML = (personalBkg);
 	document.getElementById('jsLoop').innerHTML = (profession);
 	document.getElementById('jsLoop').innerHTML = (academicBkg);
