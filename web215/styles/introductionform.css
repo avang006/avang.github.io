@@ -130,12 +130,12 @@ nav li a:hover {
   margin-left: auto;
 
  }
-#bodyblock  {
+.bodyblock  {
   background: #d9ecf5;
   border: 1px solid #194659;
   height: auto;
   position: relative;
-  width: 730px;
+  width: 720px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
