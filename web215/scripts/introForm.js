@@ -1,6 +1,4 @@
 let myForm = document.getElementById("myForm");
-myForm.addEventListener("submit", (e) => {
-e.preventDefault();
 	
 function formSubmit() {
 	var fullName = document.getElementById('name').value;
@@ -19,5 +17,4 @@ function formSubmit() {
 	document.getElementById('jsLoop').innerHTML = (courses);
 	document.getElementById('jsLoop').innerHTML = (funFact);
 	document.getElementById('jsLoop').innerHTML = (addFact);
-}
-});
+};
