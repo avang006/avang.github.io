@@ -15,7 +15,6 @@ let myForm = document.getElementById("myForm");
   		const course = document.getElementById('education').value;
   		const funFact = document.getElementById('funfact').value;
  		const addFact = document.getElementById('addfact').value;
- 	 	document.getElementById('jsLoop').innerHTML = (fullName);
 
 		const resultsHTML = `
   						<p><strong>Name:</strong> ${name}</p>
