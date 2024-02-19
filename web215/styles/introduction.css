@@ -58,7 +58,7 @@ a:visited {
 }
 
 a:hover {
-  color: #4F7369;
+  color: #7dbfb3;
   background-color: transparent;
   text-decoration: underline dotted;
 }
@@ -97,7 +97,7 @@ nav li a {
     
 }
 nav li a:hover {
-    color: #4F7369;
+    color: #7dbfb3;
 }
 .guide  {
   text-align: center;
@@ -143,10 +143,6 @@ nav li a:hover {
   padding: 10px;
   text-align: center;
 }
-#personal	{
-	font-style: italic;
-	text-align: center;
-}
 h2{
   font-family: countryside;
 }
@@ -173,7 +169,6 @@ h2{
   margin-left: 20px;
 }
 #personal	{
-	font-style: italic;
 	text-align: center;
 }
 #namelink {
