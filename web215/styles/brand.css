@@ -142,6 +142,7 @@ nav li a:hover {
   margin-top: -105px;
   padding: 10px;
   text-align: center;
+  font-size: 18px;
 }
 
 h2{
@@ -185,13 +186,13 @@ h2{
   margin-left: auto;
   margin-right: auto;
   width: 500px;
-  height: 60px;
+  height: 90px;
 }
 .color-boxone {
   background-color: #7dbfb3;
   border: solid black;
   width: 150px;
-  height: 50px;
+  height: 90px;
   padding: 5px;
   float: left;
   color: #000000;
@@ -200,7 +201,7 @@ h2{
   background-color: #d9ecf5;
   border: solid black;
   width: 150px;
-  height: 50px;
+  height: 90px;
   padding: 5px;
   float: left;
   color: #000000;
@@ -209,7 +210,7 @@ h2{
   background-color: #4f7369;
   border: solid black;
   width: 150px;
-  height: 50px;
+  height: 90px;
   padding: 5px;
   float: left;
   color: #000000;
