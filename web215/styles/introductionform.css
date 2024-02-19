@@ -15,8 +15,8 @@
 body	{
   	margin-left: auto;
   	margin-right: auto;
-	  flex-direction: column;
-    display: flex;
+	flex-direction: column;
+    	display: flex;
   	font-family: BAHNSCHRIFT light;
   	color: #194759;
   	background-color: #7dbfb3;
@@ -58,7 +58,7 @@ a:visited {
 }
 
 a:hover {
-  color: #4F7369;
+  color: #7dbfb3;
   background-color: transparent;
   text-decoration: underline dotted;
 }
@@ -97,7 +97,7 @@ nav li a {
     
 }
 nav li a:hover {
-    color: #4F7369;
+    color: #7dbfb3;
 }
 .guide  {
   text-align: center;
@@ -116,7 +116,7 @@ nav li a:hover {
 }
 .banner {
   width: 700px;
-  height: 100px;
+  height: 170px;
   margin-left: auto;
   margin-right: auto;
   z-index: 2;
@@ -130,55 +130,18 @@ nav li a:hover {
   margin-left: auto;
 
  }
-.bodyblock  {
+#bodyblock  {
   background: #d9ecf5;
   border: 1px solid #194659;
   height: auto;
   position: relative;
-  width: 720px;
+  width: 700px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
-  margin-top: -36px;
+  margin-top: -105px;
   padding: 10px;
   text-align: center;
-}
-input[type=submit] {
-  background-color: #194659;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
-  font-family: BAHNSCHRIFT light;
-}
-#form {
-  margin-left: auto;
-  margin-right: auto;
-  width: 500px;
-  height: auto;
-  text-align: left;
-  
-}
-.col-75 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
-
-.col-25 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-input[type=submit]:hover {
-  background-color: #4f7369;
 }
 h2{
   font-family: countryside;
@@ -191,9 +154,6 @@ h2{
   content: "";
   display: table;
   clear: both;
-}
-.subject{
-  font-family: BAHNSCHRIFT light;
 }
 .column ul {
   text-align: left;
@@ -208,8 +168,7 @@ h2{
   text-align: left;
   margin-left: 20px;
 }
-.personal	{
-	font-style: italic;
+#personal	{
 	text-align: center;
 }
 #namelink {
@@ -224,13 +183,13 @@ h2{
 #colorboxes  {
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
+  width: 460px;
   height: 60px;
 }
 .color-boxone {
   background-color: #7dbfb3;
   border: solid black;
-  width: 150px;
+  width: 100px;
   height: 50px;
   padding: 5px;
   float: left;
@@ -239,7 +198,7 @@ h2{
 .color-boxtwo {
   background-color: #d9ecf5;
   border: solid black;
-  width: 150px;
+  width: 100px;
   height: 50px;
   padding: 5px;
   float: left;
@@ -248,7 +207,7 @@ h2{
 .color-boxthree {
   background-color: #4f7369;
   border: solid black;
-  width: 150px;
+  width: 100px;
   height: 50px;
   padding: 5px;
   float: left;
@@ -257,16 +216,15 @@ h2{
 .color-boxfour {
   background-color: #194659;
   border: solid black;
-  width: 476px;
+  width: 100px;
   height: 50px;
   padding: 5px;
   float: left;
-  color: #ffffff;
+  color: #000000;
 }
 #etag{
 	color: #d9ecf5;
 }
-
 #footcolor{
   background-color: #194659;
   width: auto;
