@@ -58,7 +58,7 @@ a:visited {
 }
 
 a:hover {
-  color: #4F7369;
+  color: #7dbfb3;
   background-color: transparent;
   text-decoration: underline dotted;
 }
@@ -97,7 +97,7 @@ nav li a {
     
 }
 nav li a:hover {
-    color: #4F7369;
+    color: #7dbfb3;
 }
 .guide  {
   text-align: center;
