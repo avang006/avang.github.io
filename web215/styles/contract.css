@@ -25,6 +25,9 @@ body	{
   	font-size: 100%;
     min-height: 100vh;
 }
+#intro{
+	font-color: #194659;
+}
 #header: {
   color: #d9ecf5;
 }
