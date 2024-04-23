@@ -37,8 +37,8 @@ body{
   text-align: center;
   padding: 14px 10px;
   text-decoration: none;
+  font-size: 17px;
   text-decoration: underline dotted;
-  font-size: 20px;
 }
 
 /* Change the color of links on hover */
@@ -59,11 +59,11 @@ body{
 .footer{
   text-align: center;
   background-color: #d9ecf5;
-  margin: 0;
-  position: absolute;
-  bottom:0;
-  width:100%;
-  padding-top: 10px;
+  margin: auto;
+  
+  width: 800px;
+  padding: 100 10px 20px 20px;
+  
   
 }
 .footer a {
@@ -71,8 +71,8 @@ body{
   text-align: center;
   padding: 14px 10px;
   text-decoration: none;
+  font-size: 17px;
   text-decoration: underline dotted;
-  font-size: 20px;
 }
 
 /* Change the color of links on hover */
@@ -95,9 +95,8 @@ a {
   height: auto;
   padding:0 10px 20px 20px;
   width: 800px;
-  margin: auto;
   background-color: #d9ecf5;
-
+  margin: auto;
 }
 
 h2 {
