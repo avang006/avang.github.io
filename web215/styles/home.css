@@ -16,7 +16,7 @@ body{
   background-color: #7dbfb3;
   margin: auto;
   color: #194659;
-  font-size: 17px;
+  font-size: 20px;
 }
 .header{
   background-color: #d9ecf5;
@@ -30,7 +30,6 @@ body{
   background-color: #d9ecf5;
   margin: 0;
   padding-bottom: 15px;
-  font-size: 17px;
   
 }
 .navbar a {
@@ -39,6 +38,7 @@ body{
   padding: 14px 10px;
   text-decoration: none;
   text-decoration: underline dotted;
+  font-size: 20px;
 }
 
 /* Change the color of links on hover */
@@ -64,7 +64,6 @@ body{
   bottom:0;
   width:100%;
   padding-top: 10px;
-  font-size: 17px;
   
 }
 .footer a {
@@ -73,6 +72,7 @@ body{
   padding: 14px 10px;
   text-decoration: none;
   text-decoration: underline dotted;
+  font-size: 20px;
 }
 
 /* Change the color of links on hover */
