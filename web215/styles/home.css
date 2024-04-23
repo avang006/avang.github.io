@@ -17,14 +17,11 @@ body{
   margin: auto;
   color: #194659;
   font-size: 17px;
-  display: flex;
-  flex-direction: column;
 }
 .header{
   background-color: #d9ecf5;
   padding: 10px;
   text-align: center;
-  flex: none;
 }
 
 /* Style the links inside the navigation bar */
@@ -68,7 +65,6 @@ body{
   width:100%;
   padding-top: 10px;
   font-size: 17px;
-  flex: none;
   
 }
 .footer a {
