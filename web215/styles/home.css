@@ -12,124 +12,96 @@
   src: local("countryside"), url("https://avang006.github.io/components/COUNTRYSIDE-YDKJ.TTF");
 }
 
-body	{
-  	margin-left: auto;
-  	margin-right: auto;
-	  flex-direction: column;
-    display: flex;
-  	font-family: BAHNSCHRIFT light;
-  	color: #194759;
-  	background-color: #7dbfb3;
-  	font-size: 100%;
-    min-height: 100vh;
-}
-#header: {
-  color: #eBF2F1;
-}
-#heading	{
-	margin-left: auto;
-  margin-right: auto;
-  color: #eBF2F1;
-  font-family: Palatino;
-	text-align: center;
-  font-size: 100%;
-}
-#page_wrapper {
-    width: 200%;
-    max-width: 1024px;
-    margin: 0 auto;
-}
-a:link {
-  color: #eBF2F1;
-  background-color: transparent;
-  text-decoration: underline dotted;
-  font-family: BAHNSCHRIFT light;
-}
-
-a:visited {
-  color: #eBF2F1;
-  background-color: transparent;
-  text-decoration: strikethrough;
-}
-
-a:hover {
-  color: #4F7369;
-  background-color: transparent;
-  text-decoration: underline dotted;
-}
-
-a:active {
-  color: #eBF2F1;
-  background-color: transparent;
-  text-decoration: underline overline #eBF2F1;
-}
-header {
-    background-color: #7dbfb3;
-}
-nav {
-    height: 50px;
-    background-color: #7dbfb3;
-    text-align: center;
-    width: 100%;
-}
-
-nav ul {
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #194659;
-    width: 100%;
-}
-nav li {
-    display: inline-block;
-    height: 100%;
-    padding: 10px;
-}
-nav li a {
-    font-family: cursive;
-    color: #eBF2F1;
-    font-size: 16px;
-    text-decoration: none;
-    
-}
-nav li a:hover {
-    color: #4F7369;
-}
-#intro {
-	color: #194659;
-}
-#bodyblock  {
-  background: #d9ecf5;
-  border: 1px solid #194659;
-  height: auto;
-  position: relative;
-  width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
-  margin-top: 40px;
-  padding: 10px;
-  text-align: center;
-	font-size: 18px;
-
-}
-h2{
-  font-family: countryside;
-}
-#namelink {
+body{
+  background-color: #7dbfb3;
+  margin: auto;
   color: #194659;
 }
-#footcolor{
-  background-color: #194659;
-  width: 100%;
-  height: 150%;
-  margin-top: auto;
+.header{
+  background-color: #d9ecf5;
+  padding: 10px;
   text-align: center;
 }
-footer {
-	width: 100%;
-  margin-top: auto;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	
+
+/* Style the links inside the navigation bar */
+.navbar{
+  text-align: center;
+  background-color: #d9ecf5;
+  margin: 0;
+  padding-bottom: 15px;
+  
+}
+.navbar a {
+  color: #194659;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-size: 17px;
+  text-decoration: underline dotted;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #d9ecf5;
+  color: #4f7369;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.tagline {
+  font-variant: small-caps;
+  color: #194659;
+}
+.footer{
+  text-align: center;
+  background-color: #d9ecf5;
+  margin: 0;
+  position: absolute;
+  bottom:0;
+  width:100%;
+  padding-top: 10px;
+  
+}
+.footer a {
+  color: #194659;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-size: 17px;
+  text-decoration: underline dotted;
+}
+
+/* Change the color of links on hover */
+.footer a:hover {
+  color: #4f7369;
+}
+
+/* Add a color to the active/current link */
+.footer a.active {
+  color: white;
+}
+a {
+  color: #194659;
+  text-decoration: underline dotted;
+}
+.a:hover{
+   color: #4f7369;
+}
+.info {
+  height: auto;
+  padding:0 10px 20px 20px;
+  width: 800px;
+  margin: auto;
+  background-color: #d9ecf5;
+
+}
+
+h2 {
+  text-align: center;
+}
+.about {
+  text-align: left;
 }
