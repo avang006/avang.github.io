@@ -16,12 +16,15 @@ body{
   background-color: #7dbfb3;
   margin: auto;
   color: #194659;
-  font-size: 17pt;
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
 }
 .header{
   background-color: #d9ecf5;
   padding: 10px;
   text-align: center;
+  flex: none;
 }
 
 /* Style the links inside the navigation bar */
@@ -30,6 +33,7 @@ body{
   background-color: #d9ecf5;
   margin: 0;
   padding-bottom: 15px;
+  font-size: 17px;
   
 }
 .navbar a {
@@ -37,7 +41,6 @@ body{
   text-align: center;
   padding: 14px 10px;
   text-decoration: none;
-  font-size: 17pt;
   text-decoration: underline dotted;
 }
 
@@ -64,6 +67,8 @@ body{
   bottom:0;
   width:100%;
   padding-top: 10px;
+  font-size: 17px;
+  flex: none;
   
 }
 .footer a {
@@ -71,7 +76,6 @@ body{
   text-align: center;
   padding: 14px 10px;
   text-decoration: none;
-  font-size: 17pt;
   text-decoration: underline dotted;
 }
 
