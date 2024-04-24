@@ -1,53 +1,32 @@
 <!DOCTYPE html>
-<html lang = "en">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel = "stylesheet" type = "text/css" href = "styles/contract.css">
-<title>Alyssa Vang Amazing Viper WEB 215</title>
-    
-</head>
+<html lang="en">
+  <head>
+    <meta charset=UTF-8">
+    <link rel = "stylesheet" href ="styles/home.css">
+	<title>Home</title>
+  </head>
 	
-<body>
-	    <header id="heading"><H1>Alyssa Vang Amazing Viper WEB 215</H1>
-		    <p class="personal">"Elegant Gestures, Captivating Hearts"</p>
-	</header>
-  <div id="page_wrapper">
-		<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="contract.html">Contract</a></li>
-        <li><a href="introduction.html">Introduction</a></li>
-        <li><a href="brand.html">Brand</a></li>
-	<li><a href="introductionform.html">Introduction Form</a></li>
-    </ul>
-    </nav>
-    </div>
+<body> 
+	<div data-include = "components/header.html"></div>
+	
+  <main>
+    <div class="info">
+    <h2>Contract</h2>
+<p class="about">I, <a href="introduction.html" id="namelink">Alyssa Vang</a> agree to abide by the terms of the course contract in my SPRING 2024 WEB215-N801 ADVANCED WEB MARKUP & SCRIPTING with my instructor, Professor D.I. von Briesen.
 
-<div class="banner"></div>
-<br>
-<div id="bodyblock">
-<br><h2>Contract</h2>
-<p class="pbody">I, <a href="introduction.html" id="namelink">Alyssa Vang</a> agree to abide by the terms of the course contract in my SPRING 2024 WEB215-N801 ADVANCED WEB MARKUP & SCRIPTING with my instructor, Professor D.I. Von Briesen.
-<br>
-<br>
 I understand that all work that I do on my school and personal website will be publicly available to the world, and will not put information there that is inappropriate for schoolwork, or that I wish to keep private.
-<br>
-<br>
-I also understand that it is my work that counts for attendance, not logins or showing up for class. As such, failure to turn in assignments may show as absences.
-<br>
-<br>
-Signed: <i>Alyssa Vang, 14/01/2024</i></p></div>
 
-<div id="footcolor">
-<p><br><a href="https://github.com/avang006">GitHub</a> | <a href="https://avang006.github.io/">GitHub.io</a> | <a href="https://avang006.github.io/web215/">Web215.io</a> | <a href="https://www.freecodecamp.org/avang006">FreeCodeCamp</a> | <a href="https://www.codecademy.com/profiles/avang006">Codecademy</a> | <a href="https://jsfiddle.net/user/avang006/fiddles/">JSFiddle</a> | <a href="http://www.linkedin.com/in/alyssa-vang-3a8723191">Linkedln</a></p>
-       <br>
-       <footer>
-       <a href="https://validator.w3.org/check?uri=https://avang006.github.io/web215/introduction.html" style = "text-decoration: none">
-          <img src="images/html5.png" alt="Validate HTML">
-       </a>
-	<a href="https://jigsaw.w3.org/css-validator/validator?uri=https://avang006.github.io/web215/introduction.html" style = "text-decoration: none">
-         <img src="images/validation_button_css_rectangle_blue.gif" alt="Validate CSS">
-       </a>
-	<br><p id="etag">Designed by AV&copy;2024</p></footer>
-  </div>
+I also understand that it is my work that counts for attendance, not logins or showing up for class. As such, failure to turn in assignments may show as absences.
+
+Signed: <span class="style">Alyssa Vang, 14/01/2024</span></p></div></main>
+
+	
+<div data-include="components/footer.html"></div>
+  
+  <script src="scripts/HTMLInclude.min.js"></script>
+	<script>
+document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+</script>
 </body>
 </html>
