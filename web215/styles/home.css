@@ -56,8 +56,6 @@ body{
 .tagline {
   font-variant: small-caps;
   color: #194659;
-  font-family: BAHNSCHRIFT light;
-  
 }
 .footer{
   height: auto;
@@ -114,117 +112,6 @@ h1 {
 .bold {
   font-weight: bold;
 }
-@font-face {
-  font-family: BAHNSCHRIFT light;
-  font-style: normal;
-  font-weight: 400;
-  src: local("BAHNSCHRIFT light"), url("https://avang006.github.io/components/BAHNSCHRIFT.TTF");
-}
-
-@font-face {
-  font-family: countryside;
-  font-style: normal;
-  font-weight: 400;
-  src: local("countryside"), url("https://avang006.github.io/components/COUNTRYSIDE-YDKJ.TTF");
-}
-
-body{
-  background-color: #7dbfb3;
-  margin: auto;
-  color: #194659;
-  font-size: 20px;
-}
-.header{
-  background-color: #d9ecf5;
-  padding: 10px;
-  text-align: center;
-}
-
-/* Style the links inside the navigation bar */
-.navbar{
-  text-align: center;
-  background-color: #d9ecf5;
-  margin: 0;
-  padding-bottom: 15px;
-  
-}
-.navbar a {
-  color: #194659;
-  text-align: center;
-  padding: 14px 10px;
-  text-decoration: none;
-  text-decoration: underline dotted;
-}
-
-/* Change the color of links on hover */
-.navbar a:hover {
-  background-color: #d9ecf5;
-  color: #4f7369;
-}
-
-/* Add a color to the active/current link */
-.navbar a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-.tagline {
-  font-variant: small-caps;
-  color: #194659;
-}
-.footer{
-  height: auto;
-  padding: 20px 10px 20px 20px;
-  width: 800px;
-  background-color: #d9ecf5;
-  margin: auto;
-  text-align: center;
-  
-  
-}
-.footer a {
-  color: #194659;
-  text-align: center;
-  padding: 14px 10px;
-  text-decoration: none;
-  text-decoration: underline dotted;
-}
-
-/* Change the color of links on hover */
-.footer a:hover {
-  color: #4f7369;
-}
-
-/* Add a color to the active/current link */
-.footer a.active {
-  color: white;
-}
-a {
-  color: #194659;
-  text-decoration: underline dotted;
-}
-.a:hover{
-   color: #4f7369;
-}
-.info {
-  height: auto;
-  padding: 20px 10px 50px 20px;
-  width: 800px;
-  background-color: #d9ecf5;
-  margin: auto;
-}
-
-h2 {
-  text-align: center;
-}
-.about {
-  text-align: left;
-}
-.style {
-  font-style: italic;
-}
-.bold {
-  font-weight: bold;
-}
 figure {
   width: 30%;
   text-align: center;
@@ -234,3 +121,4 @@ figure {
   margin: auto;
   padding: 0.5em;
 }
+
