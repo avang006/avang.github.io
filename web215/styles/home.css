@@ -4,6 +4,12 @@
   font-weight: 400;
   src: local("BAHNSCHRIFT light"), url("https://avang006.github.io/components/BAHNSCHRIFT.TTF");
 }
+@font-face {
+  font-family: I LOVE GLITTER;
+  font-style: normal;
+  font-weight: 400;
+  src: local("I LOVE GLITTER"), url("https://avang006.github.io/components/I LOVE GLITTER.TTF");
+}
 
 body{
   background-color: #7dbfb3;
