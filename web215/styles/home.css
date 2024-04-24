@@ -17,11 +17,13 @@ body{
   margin: auto;
   color: #194659;
   font-size: 20px;
+  font-family: BAHNSCHRIFT light;
 }
 .header{
   background-color: #d9ecf5;
   padding: 10px;
   text-align: center;
+  font-family: countryside;
 }
 
 /* Style the links inside the navigation bar */
@@ -57,7 +59,7 @@ body{
 }
 .footer{
   height: auto;
-  padding: 0 10px 20px 20px;
+  padding: 20px 10px 20px 20px;
   width: 800px;
   background-color: #d9ecf5;
   margin: auto;
@@ -91,7 +93,7 @@ a {
 }
 .info {
   height: auto;
-  padding:0 10px 20px 20px;
+  padding: 20px 10px 50px 20px;
   width: 800px;
   background-color: #d9ecf5;
   margin: auto;
@@ -99,10 +101,14 @@ a {
 
 h2 {
   text-align: center;
+  font-family: countryside;
 }
 .about {
   text-align: left;
 }
 .style {
   font-style: italic;
+}
+.bold {
+  font-weight: bold;
 }
