@@ -56,11 +56,12 @@ body{
   color: #194659;
 }
 .footer{
-  text-align: center;
+  height: auto;
+  padding: 0 10px 20px 20px;
+  width: 800px;
   background-color: #d9ecf5;
   margin: auto;
-  width: 800px;
-  padding:0 10px 20px 20px;
+  text-align: center;
   
   
 }
