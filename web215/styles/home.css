@@ -8,8 +8,7 @@
   font-family: FREYA;
   font-style: normal;
   font-weight: 400;
-  src: local("FREYA"), url("https://avang006.github.io/components
-/FREYA.OTF");
+  src: local("FREYA"), url("https://avang006.github.io/components/FREYA.OTF");
 }
 
 body{
