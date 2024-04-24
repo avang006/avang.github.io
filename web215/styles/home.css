@@ -5,10 +5,11 @@
   src: local("BAHNSCHRIFT light"), url("https://avang006.github.io/components/BAHNSCHRIFT.TTF");
 }
 @font-face {
-  font-family: I LOVE GLITTER;
+  font-family: FREYA;
   font-style: normal;
   font-weight: 400;
-  src: local("I LOVE GLITTER"), url("https://avang006.github.io/components/I LOVE GLITTER.TTF");
+  src: local("FREYA"), url("https://avang006.github.io/components
+/FREYA.OTF");
 }
 
 body{
@@ -98,7 +99,7 @@ a {
 
 h1 {
   text-align: center;
-  font-family: I LOVE GLITTER;
+  font-family: FREYA;
 }
 .about {
   text-align: left;
