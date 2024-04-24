@@ -56,6 +56,8 @@ body{
 .tagline {
   font-variant: small-caps;
   color: #194659;
+  font-family: BAHNSCHRIFT light;
+  
 }
 .footer{
   height: auto;
