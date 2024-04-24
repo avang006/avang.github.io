@@ -22,6 +22,7 @@ body{
   background-color: #d9ecf5;
   padding: 10px;
   text-align: center;
+  
 }
 
 /* Style the links inside the navigation bar */
@@ -97,6 +98,7 @@ a {
 
 h1 {
   text-align: center;
+  font-family: I LOVE GLITTER;
 }
 .about {
   text-align: left;
