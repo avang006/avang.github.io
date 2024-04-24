@@ -1,113 +1,51 @@
 <!DOCTYPE html>
-<html lang = "en">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel = "stylesheet" type = "text/css" href = "styles/introductionform.css">
-<title>Alyssa Vang Amazing Viper Web 215</title>
-    
-</head>
-<body>
-    <header id="heading"><H1>Alyssa Vang Amazing Viper Web 215</H1>
-	    <p class="personal">"Elegant Gestures, Captivating Hearts"</p>
-	</header><div id="page_wrapper">
-		<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="contract.html">Contract</a></li>
-        <li><a href="introduction.html">Introduction</a></li>
-        <li><a href="brand.html">Brand</a></li>
-	<li><a href="introductionform.html">Introduction Form</a></li>
-    </ul>
-    </nav>
-    </div>
-<div class="banner">
-</div>
-
-<div class="bodyblock">
-<h2>Introduction Form</h2>
-<br>
-<div id="form">
-<form id="myForm" action='' method= "get">
-<div class="row">
-<div class="col-25">
-Submit a photo of yourself:</div>
-<div class="col-75">
-<input id="file" type="file" multiple></div></div>
-<br>
-<br>
-<div class="row"><div class="col-25">
-Add a caption to the picture:</div>
-<div class="col-75"><input class="subject" type="text" id="caption" value="caption"></div><br></div>
-<div class="row">
- <br><div class="col-25">
- Enter your first and last name:</div> 
- <div class="col-75"><input class="subject" type="text" id="name" value="Alyssa Vang"></div></div>
-  <br><br>
-  <div class="row"><div class="col-25"> Personal Background:</div>
-  <div class="col-75"><input class="subject" type="text" id="personalBackground" value="Charlotte native, married for 14 years, have 4 kids."></div></div>
-  <br><br>
-  <div class="row"><div class="col-25">Professional Background:</div> <div class="col-75"><input class="subject" type="text" id="profession" value="Worked in the nail industry for 10 years which ended October of 2022. Since then I’ve got into Spectrum as a billing rep I, progressing to a rep 2 by October 2023. December 2023 I recently got promoted to a billing analyst I."></div></div>
- <br><br>
- <div class="row">
- <div class="col-25">Academic Background:</div> 
- <div class="col-75"><input class="subject" type="text" id="academicBkg" value="Received my cosmetology license in 2010. Currently completing my associates in Full stack."></div></div><br><br>
- <div class="row"><div class="col-25">Primary Computer Platform:</div>
- <div class="col-75"><input class="subject" type="text" id="computer" value="I used to love designing myspace pages for friends and family members."></div></div>
- <br><br>
- <div class="row"><div class="col-25">Courses taking, why:</div>
-  <div class="col-75">
-  <textarea class="subject" id="education" style="height:100px">Web215-N801 Advance Markup & Script: Require course for my degree.CSC221-N801 Advanced Python Programming:Last python class for my degree.</textarea>
-  </div></div>
-  <br><br>
-  <div class="row"><div class="col-25">Fun fact:</div>
-  <div class="col-75"><input class="subject" type="text" id="funfact" value="I’m the shortest person in my family 4’11”. =D"></div></div>
-  <br><br>
- <div class="row"><div class="col-25"> Additional points of interest:</div>
- <div class="col-75"><input class="subject" type="text" id="addfact" value="I love DIY projects."></div></div><br><br>
- 
- 
- <div class="row">
- <div class="col-25">
- <p>Please select your favorite Web language:</p></div>
-  <div class="col-75"><input type="radio" id="html" name="favlang" value="HTML"><label for="html"> HTML</label><br>
-  <input type="radio" id="css" name="fav_language" value="CSS">
- <label for="css">CSS</label><br>
- <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-  <label for="javascript">JavaScript</label><br><br></div></div>
- 
- <div class="row"><div class="col-25">Which is your favorite day of the week?(select one)</div>
- <div class="col-75">
-   <input type="checkbox" id="day1" name="day1" value="Sunday">
-  <label for="day1">Sunday</label><br>
-  <input type="checkbox" id="day2" name="daye2" value="Monday">
-  <label for="day2">Monday</label><br>
-  <input type="checkbox" id="day3" name="day3" value="Tuesday">
-  <label for="day3">Tuesday</label><br>
-  <input type="checkbox" id="day4" name="day3" value="wednesday">
-  <label for="day4">Wednesday</label><br>
-  <input type="checkbox" id="day5" name="day3" value="Thursday">
-  <label for="day5">Thursday</label><br>
-  <input type="checkbox" id="day6" name="day3" value="Thursday">
-  <label for="day6">Friday</label><br>
-  <input type="checkbox" id="day7" name="day3" value="saturday">
-  <label for="day7">Saturday</label><br><br></div></div>
+<html lang="en">
+  <head>
+    <meta charset=UTF-8">
+    <link rel = "stylesheet" href ="styles/home.css">
+	<title>Introduction Form</title>
+  </head>
+	
+<body> 
+	<div data-include = "components/header.html"></div>
+	 <h1>
+      		Introduction Form
+    	</h1>
+  <main class="info">
+<form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="profile-picture">Submit a photo of yourself:<input id="profile-picture" type="file" name="file" /></label>
+        <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="last-name">Personal Background:<input id="last-name" name="last-name" type="text" required /></label>
+        <label for="email">Professional Background:<input id="email" name="email" type="email" required /></label>
+        <label for="new-password">Academic Background: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+         <label for="new-password">Primary Computer Platform: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+          <label for="bio">Courses taking, why:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
+        <label for="new-password">Fun fact: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+         <label for="new-password">Additional points of interest: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+      
+        <legend>Please select your favorite language:</legend>
+        <label for="personal-account"><input id="personal-account" type="checkbox" name="account-type" class="inline" checked />HTML</label>
+        <label for="business-account"><input id="business-account" type="checkbox" name="account-type" class="inline" />CSS</label>
+        <label for="business-account"><input id="business-account" type="checkbox" name="account-type" class="inline" />JavaScript</label>
+        
+      </fieldset>
+      <fieldset>
+	 <legend>Favorite Meal of the Day:</legend>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" checked />Breakfast</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" />Lunch</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" />Dinnert</label>
+       
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+	
+<div data-include="components/footer.html"></div>
   
-  <input type="submit" id= "submit" value="submit" onclick="formSubmit()">
-
-  </form>
- </div>
-<p id="jsloop"></p>
-</div>
-
-<div id="footcolor">
-<p><br><a href="https://github.com/avang006">GitHub</a> | <a href="https://avang006.github.io/">GitHub.io</a> | <a href="https://avang006.github.io/web215/">Web215.io</a> | <a href="https://www.freecodecamp.org/avang006">FreeCodeCamp</a> | <a href="https://www.codecademy.com/profiles/avang006">Codecademy</a> | <a href="https://jsfiddle.net/user/avang006/fiddles/">JSFiddle</a> | <a href="http://www.linkedin.com/in/alyssa-vang-3a8723191">Linkedln</a></p>
-       <br>
-       <footer><a href="https://validator.w3.org/check?uri=https://avang006.github.io/web215/introduction.html" style = "text-decoration: none">
-          <img src="images/html5.png" alt="Validate HTML">
-       </a>
-	<a href="https://jigsaw.w3.org/css-validator/validator?uri=https://avang006.github.io/web215/introduction.html" style = "text-decoration: none">
-         <img src="images/validation_button_css_rectangle_blue.gif" alt="Validate CSS">
-       </a>
-       <br><p id="etag">Designed by AV&copy;2024</p></footer></div>
-	<script src="scripts/introForm.js"></script>
+  <script src="scripts/HTMLInclude.min.js"></script>
 </body>
 </html>
