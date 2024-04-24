@@ -37,7 +37,6 @@ body{
   text-align: center;
   padding: 14px 10px;
   text-decoration: none;
-  font-size: 17px;
   text-decoration: underline dotted;
 }
 
@@ -60,7 +59,6 @@ body{
   text-align: center;
   background-color: #d9ecf5;
   margin: auto;
-  
   width: 800px;
   padding: 100 10px 20px 20px;
   
@@ -71,7 +69,6 @@ body{
   text-align: center;
   padding: 14px 10px;
   text-decoration: none;
-  font-size: 17px;
   text-decoration: underline dotted;
 }
 
@@ -104,4 +101,7 @@ h2 {
 }
 .about {
   text-align: left;
+}
+.style {
+  font-style: italic;
 }
