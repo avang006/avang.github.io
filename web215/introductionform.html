@@ -14,38 +14,39 @@
   <main class="info">
 <form method="post" action='https://register-demo.freecodecamp.org'>
       <fieldset>
-        <label for="profile-picture">Submit a photo of yourself:<input id="profile-picture" type="file" name="file" /></label>
-        <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
-        <label for="last-name">Personal Background:<input id="last-name" name="last-name" type="text" required /></label>
-        <label for="email">Professional Background:<input id="email" name="email" type="email" required /></label>
-        <label for="new-password">Academic Background: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
-         <label for="new-password">Primary Computer Platform: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+        <label for="profile-picture">Submit a photo of yourself:<input id="profile-picture" type="file" name="file" ></label>
+        <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required ></label>
+        <label for="last-name">Personal Background:<input id="last-name" name="last-name" type="text" required ></label>
+        <label for="email">Professional Background:<input id="email" name="email" type="email" required ></label>
+        <label for="academic-background">Academic Background: <input id="academic-background" name="academic-background" type="text" ></label>
+         <label for="platform">Primary Computer Platform: <input id="platform" name="platform" type="text" ></label>
           <label for="bio">Courses taking, why:
           <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
         </label>
-        <label for="new-password">Fun fact: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
-         <label for="new-password">Additional points of interest: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+        <label for="fun-fact">Fun fact: <input id="fun-fact" name="fun-fact" type="text"></label>
+         <label for="interest">Additional points of interest: <input id="interest" name="interest" type="text"></label>
       </fieldset>
+
       <fieldset>
       
         <legend>Please select your favorite language:</legend>
-        <label for="personal-account"><input id="personal-account" type="checkbox" name="account-type" class="inline" checked />HTML</label>
-        <label for="business-account"><input id="business-account" type="checkbox" name="account-type" class="inline" />CSS</label>
-        <label for="business-account"><input id="business-account" type="checkbox" name="account-type" class="inline" />JavaScript</label>
+        <label for="html"><input id="html" type="checkbox" name="code-type" class="inline" checked >HTML</label>
+        <label for="css"><input id="css" type="checkbox" name="code-type" class="inline" >CSS</label>
+        <label for="java-script"><input id="java-script" type="checkbox" name="code-type" class="inline" >JavaScript</label>
         
       </fieldset>
       <fieldset>
 	 <legend>Favorite Meal of the Day:</legend>
-        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" checked />Breakfast</label>
-        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" />Lunch</label>
-        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" />Dinnert</label>
+        <label for="breakfast"><input id="breakfast" type="radio" name="meal" class="inline" checked >Breakfast</label>
+        <label for="lunch"><input id="lunch" type="radio" name="meal" class="inline" >Lunch</label>
+        <label for="dinner"><input id="dinner" type="radio" name="meal" class="inline" >Dinner</label>
        
       </fieldset>
-      <input type="submit" value="Submit" />
+      <input type="submit" value="Submit">
     </form>
 	
 <div data-include="components/footer.html"></div>
   
-  <script src="scripts/HTMLInclude.min.js"></script>
+  <script src="scripts/HTMLInclude.min.js"></script></main>
 </body>
 </html>
