@@ -4,6 +4,12 @@
   font-weight: 400;
   src: local("BAHNSCHRIFT light"), url("https://avang006.github.io/components/BAHNSCHRIFT.TTF");
 }
+@font-face {
+  font-family: FREYA;
+  font-style: normal;
+  font-weight: 400;
+  src: local("FREYA"), url("https://avang006.github.io/components/FREYA.TTF");
+}
 
 
 body{
