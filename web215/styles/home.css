@@ -111,7 +111,7 @@ h1 {
   font-weight: bold;
 }
 figure {
-  width: 30%;
+  width: auto;
   text-align: center;
   font-style: italic;
   font-size: smaller;
