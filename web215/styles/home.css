@@ -59,7 +59,7 @@ body{
 }
 .footer{
   height: auto;
-  padding: 20px 10px 20px 20px;
+  padding: 20px 20px 20px 20px;
   width: 800px;
   background-color: #d9ecf5;
   margin: auto;
@@ -91,7 +91,7 @@ a {
 }
 .info {
   height: auto;
-  padding: 20px 10px 20px 20px;
+  padding: 20px 20px 20px 20px;
   width: 800px;
   background-color: #d9ecf5;
   margin: auto;
@@ -116,8 +116,7 @@ figure {
   font-style: italic;
   font-size: smaller;
   text-indent: 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   padding: 5px;
 }
 
