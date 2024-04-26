@@ -101,6 +101,9 @@ h1 {
   text-align: center;
   font-family: FREYA;
 }
+h2 {
+  font-family: FREYA;
+}
 .about {
   text-align: left;
 }
@@ -109,6 +112,12 @@ h1 {
 }
 .bold {
   font-weight: bold;
+}
+.font-one {
+  font-family: BAHNSCHRIFT light;
+}
+.font-two {
+  font-family: FEYA;
 }
 figure {
   width: auto;
@@ -168,6 +177,40 @@ input[type="file"] {
 
 .inline{
   display: inline; 
+}
+.colorboxes {
+  text-align: center;
+  
+}
+.color-boxone {
+  background-color: #7dbfb3;
+  width: 50%;
+  border-color: #000000;
+  border-style: solid;
+
+}
+.color-boxtwo {
+  background-color: #d9ecf5;
+  width: 50%;
+  border-color: #000000;
+  border-style: solid;
+ 
+}
+.color-boxthree {
+  background-color: #4f7369;
+  color: #d9ecf5;
+  width: 50%;
+  border-color: #000000;
+  border-style: solid;
+ 
+}
+.color-boxfour {
+  background-color: #194659;
+  color: #d9ecf5;
+  width: 50%;
+  border-color: #000000;
+  border-style: solid;
+  
 }
 .button {
   background-color: #7dbfb3;
