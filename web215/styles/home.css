@@ -62,7 +62,6 @@ body{
   background-color: #d9ecf5;
   margin: auto;
   text-align: center;
-  display: inline-block;
 }
 .footer a {
   color: #194659;
@@ -70,7 +69,6 @@ body{
   padding: 14px 10px;
   text-decoration: none;
   text-decoration: underline dotted;
-  
 }
 
 /* Change the color of links on hover */
