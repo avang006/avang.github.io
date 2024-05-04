@@ -14,9 +14,6 @@
   border-left: 3px solid green;
   height: 10px;
   position: absolute;
-  left: 50%;
-  margin-left: -3px;
-  top: 0;
 }
 body{
   background-color: #7dbfb3;
