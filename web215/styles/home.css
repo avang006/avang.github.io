@@ -10,11 +10,6 @@
   font-weight: 400;
   src: local("FREYA"), url("https://avang006.github.io/components/FREYA.TTF");
 }
-.vl {
-  border-left: 3px solid green;
-  height: 50px;
-  position: absolute;
-}
 body{
   background-color: #7dbfb3;
   margin: auto;
