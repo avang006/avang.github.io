@@ -50,3 +50,10 @@ h2 {
   font-variant: small-caps;
   color: #BOA99F;
 }
+.info {
+  height: auto;
+  padding: 20px 20px 20px 20px;
+  width: 900px;
+  background-color: #EEEAE3;
+  margin: auto;
+}
