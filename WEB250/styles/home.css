@@ -53,21 +53,18 @@ h2 {
   font-family: BAHNSCHRIFT light;
   text-align: center;
 }
-.tagline {
-  font-variant: small-caps;
-  color: #BOA99F;
-}
 .info {
   height: auto;
   padding: 20px 20px 20px 20px;
-  width: 900px;
+  width: auto;
   background-color: #EEEAE3;
   margin: auto;
 }
 .img {
-  width: 75%;
+  width: 50%;
   height: auto;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .about {
   text-align: center;
