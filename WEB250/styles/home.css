@@ -1,3 +1,9 @@
+@font-face {
+  font-family: BAHNSCHRIFT light;
+  font-style: normal;
+  font-weight: 400;
+  src: local("BAHNSCHRIFT light"), url("https://avang006.github.io/components/BAHNSCHRIFT.TTF");
+}
 body{
   background-color: #EEEAE3;
   margin: auto;
