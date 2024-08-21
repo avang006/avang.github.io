@@ -1,0 +1,52 @@
+body{
+  background-color: #EEEAE3;
+  margin: auto;
+  color: #BOA99F;
+  font-size: 20px;
+  font-family: BAHNSCHRIFT light;
+}
+.header{
+  background-color: #EEEAE3;
+  padding: 10px;
+  text-align: center;
+  
+}
+.footer{
+  height: auto;
+  padding: 20px 20px 20px 20px;
+  width: 900px;
+  background-color: #EEEAE3;
+  margin: auto;
+  text-align: center;
+}
+.footer a {
+  color: #BOA99F;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  text-decoration: underline dotted;
+}
+
+/* Change the color of links on hover */
+.footer a:hover {
+  color: #DDD6CE;
+}
+
+/* Add a color to the active/current link */
+.footer a.active {
+  color: #BOA99F;
+}
+a {
+  color: #BOA99F;
+  text-decoration: underline dotted;
+}
+.a:hover{
+   color: #DDD6CE;
+}
+h2 {
+  font-family: BAHNSCHRIFT light
+}
+.tagline {
+  font-variant: small-caps;
+  color: #BOA99F;
+}
