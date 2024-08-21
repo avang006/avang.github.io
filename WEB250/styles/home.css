@@ -44,7 +44,8 @@ a {
    color: #DDD6CE;
 }
 h2 {
-  font-family: BAHNSCHRIFT light
+  font-family: BAHNSCHRIFT light;
+  text-align: center;
 }
 .tagline {
   font-variant: small-caps;
@@ -60,4 +61,5 @@ h2 {
 .img {
   width: 20%;
   height: auto;
+  margin: auto;
 }
