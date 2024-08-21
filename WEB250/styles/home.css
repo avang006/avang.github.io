@@ -26,7 +26,7 @@ body{
   text-align: center;
 }
 .footer a {
-  color: #BOA99F;
+  color: #B0A99F;
   text-align: center;
   padding: 14px 10px;
   text-decoration: none;
@@ -39,10 +39,10 @@ body{
 
 /* Add a color to the active/current link */
 .footer a.active {
-  color: #BOA99F;
+  color: #B0A99F;
 }
 a {
-  color: #BOA99F;
+  color: #B0A99F;
   text-decoration: none;
 }
 .a:hover{
