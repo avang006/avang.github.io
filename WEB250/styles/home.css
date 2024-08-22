@@ -96,15 +96,21 @@ h2 {
   margin: auto;
   text-align: center;
 }
+
+/* Image */
 .img {
   width: 30%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Paragraph */
 p {
   text-align: left;
 }
+
+/* span */
 .style {
   font-style: italic;
 }
