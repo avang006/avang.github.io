@@ -11,12 +11,44 @@ body{
   font-size: 20px;
   font-family: BAHNSCHRIFT light;
 }
+
+/* Header */
 .header{
   background-color: #EEEAE3;
   padding: 10px;
   text-align: center;
   
 }
+
+/* Style the links inside the navigation bar */
+.navbar{
+  text-align: center;
+  background-color: #EEEAE3;
+  margin: 0;
+  padding-bottom: 15px;
+  
+}
+.navbar a {
+  color: #331800;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #EEEAE3;
+  color: #DDD6CE;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: #EEEAE3;
+  color: white;
+}
+
+/*footer*/
 .footer{
   height: auto;
   padding: 20px 20px 20px 20px;
@@ -48,10 +80,14 @@ a {
 .a:hover{
    color: #DDD6CE;
 }
+
+/* heading 2*/
 h2 {
   font-family: BAHNSCHRIFT light;
   text-align: center;
 }
+
+/* Main div */
 .info {
   height: auto;
   padding: 20px 20px 20px 20px;
