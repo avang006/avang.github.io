@@ -7,7 +7,7 @@
 body{
   background-color: #EEEAE3;
   margin: auto;
-  color: #B0A99F;
+  color: #331800;
   font-size: 20px;
   font-family: BAHNSCHRIFT light;
 }
@@ -26,7 +26,7 @@ body{
   text-align: center;
 }
 .footer a {
-  color: #B0A99F;
+  color: #331800;
   text-align: center;
   padding: 14px 10px;
   text-decoration: none;
@@ -39,10 +39,10 @@ body{
 
 /* Add a color to the active/current link */
 .footer a.active {
-  color: #B0A99F;
+  color: #331800;
 }
 a {
-  color: #B0A99F;
+  color: #331800;
   text-decoration: none;
 }
 .a:hover{
