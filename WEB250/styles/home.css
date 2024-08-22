@@ -94,7 +94,6 @@ h2 {
   width: 600px;
   background-color: #EEEAE3;
   margin: auto;
-  text-align: center;
 }
 
 /* Image */
@@ -114,3 +113,14 @@ p {
 .style {
   font-style: italic;
 }
+
+/* Figure */
+figure {
+  width: auto;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  margin: auto;
+}
+
