@@ -96,6 +96,11 @@ h2 {
   margin: auto;
 }
 
+/*Paragraph information*/
+.about {
+  text-align: left;
+}
+
 /* Image */
 .img {
   width: 50%;
