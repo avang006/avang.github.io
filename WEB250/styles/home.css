@@ -46,7 +46,7 @@ body{
 /* Change the color of links on hover */
 .navbar a:hover {
   background-color: #EEEAE3;
-  color: #DDD6CE;
+  color: #DDA15E;
 }
 
 /* Add a color to the active/current link */
@@ -73,7 +73,7 @@ body{
 
 /* Change the color of links on hover */
 .footer a:hover {
-  color: #DDD6CE;
+  color: #DDA15E;
 }
 
 /* Add a color to the active/current link */
@@ -85,7 +85,7 @@ a {
   text-decoration: none;
 }
 .a:hover{
-   color: #DDD6CE;
+   color: #DDA15E;
 }
 
 /* heading 2*/
