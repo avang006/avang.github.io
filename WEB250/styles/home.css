@@ -4,6 +4,13 @@
   font-weight: 400;
   src: local("BAHNSCHRIFT light"), url("https://avang006.github.io/WEB250/components/BAHNSCHRIFT.TTF");
 }
+@font-face {
+  font-family: Feena Casual;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Feena Casual"), url("https://avang006.github.io/WEB250/components/FEENACASUAL.TTF");
+}
+
 body{
   background-color: #EEEAE3;
   margin: auto;
@@ -17,6 +24,7 @@ body{
   background-color: #EEEAE3;
   padding: 10px;
   text-align: center;
+  font-family: Feena Casual;
   
 }
 
@@ -33,7 +41,6 @@ body{
   text-align: center;
   padding: 14px 10px;
   text-decoration: none;
-  text-decoration: underline;
 }
 
 /* Change the color of links on hover */
