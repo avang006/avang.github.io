@@ -119,6 +119,11 @@ p {
   font-style: italic;
 }
 
+/*Letter weight*/
+.bold {
+  font-weight: bold;
+}
+
 /* Figure */
 figure {
   width: auto;
@@ -128,4 +133,4 @@ figure {
   text-indent: 0;
   margin: auto;
 }
-
+bold
