@@ -58,7 +58,6 @@ body{
 /*footer*/
 .footer{
   height: auto;
-  padding: 20px;
   width: 900px;
   background-color: #EEEAE3;
   margin: auto;
@@ -97,7 +96,6 @@ h2 {
 /* Main div */
 .info {
   height: auto;
-  padding: 20px;
   width: 600px;
   background-color: #EEEAE3;
   margin: auto;
