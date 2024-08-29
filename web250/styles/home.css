@@ -110,7 +110,7 @@ h2 {
 /* Main div */
 .info {
   height: auto;
-  width: 600px;
+  width: 900px;
   background-color: #c69deb;
   margin: auto;
 
@@ -130,7 +130,7 @@ h2 {
   margin-right: auto;
 }
 .infomain {
-  padding: 30px;
+  padding: 40px;
 }
 
 /* Paragraph */
@@ -157,3 +157,65 @@ figure {
   text-indent: 0;
   margin: auto;
 }
+.circleBase {
+    border-radius: 50%;
+    behavior: url(PIE.htc);
+    margin-left: 5px;
+}
+
+.type1 {
+    width: 100px;
+    height: 100px;
+    background: #EF52E9;
+    border: 2px solid black;
+    display: inline-block;
+}
+.type2 {
+    width: 100px;
+    height: 100px;
+    background: #50258C;
+    border: 2px solid black;
+    display: inline-block;
+}
+.type3 {
+    width: 100px;
+    height: 100px;
+    background: #FFFFFF;
+    border: 2px solid black;
+    display: inline-block;
+}
+.type4 {
+    width: 100px;
+    height: 100px;
+    background: #C412BD;
+    border: 2px solid black;
+    display: inline-block;
+}
+.type5 {
+    width: 100px;
+    height: 100px;
+    background: #C69DEB;
+    border: 2px solid black;
+    display: inline-block;
+}
+.inside {
+  color: black;
+  padding-top: 15px;
+}
+table {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: auto;
+  
+}
+th, td {
+  border: none;
+  text-align: left;
+  padding-left: 10px;
+}
+.fonta {
+  font-family: BAHNSCHRIFT light;
+}
+.fonta {
+   font-family: Feena Casual;
+  }
