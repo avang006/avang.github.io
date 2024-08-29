@@ -17,6 +17,7 @@ body{
   color: #ffffff;
   font-size: 20px;
   font-family: BAHNSCHRIFT light;
+  text-align: center;
 }
 
 /* Header */
@@ -60,7 +61,6 @@ body{
 /*footer*/
 .footer{
   height: auto;
-  width: 900px;
   background-color: #50258c;
   margin: auto;
   text-align: center;
@@ -113,13 +113,13 @@ h2 {
   width: 600px;
   background-color: #c69deb;
   margin: auto;
-  padding: 20px;
 
 }
 
 /*Paragraph information*/
 .about {
   text-align: left;
+  padding: 10px;
 }
 
 /* Image */
@@ -128,6 +128,9 @@ h2 {
   height: auto;
   margin-left: auto;
   margin-right: auto;
+}
+.infomain {
+  padding: 30px;
 }
 
 /* Paragraph */
