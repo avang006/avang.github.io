@@ -131,6 +131,7 @@ h2 {
 }
 .infomain {
   padding: 40px;
+  text-align: left;
 }
 
 /* Paragraph */
@@ -156,12 +157,6 @@ figure {
   font-size: smaller;
   text-indent: 0;
   margin: auto;
-}
-.box {
-    border-radius: 50%;
-    behavior: url(PIE.htc);
-    width: 100px;
-    height: 100px;
 }
 
 .boxa {
