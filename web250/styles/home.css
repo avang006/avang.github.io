@@ -157,35 +157,34 @@ figure {
   text-indent: 0;
   margin: auto;
 }
-.circleBase {
+.base {
     border-radius: 50%;
     behavior: url(PIE.htc);
-    margin-left: 5px;
     width: 100px;
     height: 100px;
 }
 
-.type1 {
+.base_type1 {
     background: #EF52E9;
     border: 2px solid black;
     display: inline-block;
 }
-.type2 {
+.base_type2 {
     background: #50258C;
     border: 2px solid black;
     display: inline-block;
 }
-.type3 {
+.base_type3 {
     background: #FFFFFF;
     border: 2px solid black;
     display: inline-block;
 }
-.type4 {
+.base_type4 {
     background: #C412BD;
     border: 2px solid black;
     display: inline-block;
 }
-.type5 {
+.base_type5 {
     background: #C69DEB;
     border: 2px solid black;
     display: inline-block;
