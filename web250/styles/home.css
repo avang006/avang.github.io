@@ -12,16 +12,16 @@
 }
 
 body{
-  background-color: #EEEAE3;
+  background-color: #50258c;
   margin: auto;
-  color: #331800;
+  color: #ffffff;
   font-size: 20px;
   font-family: BAHNSCHRIFT light;
 }
 
 /* Header */
 .header{
-  background-color: #EEEAE3;
+  background-color: #50258c;
   padding: 10px;
   text-align: center;
   font-family: Feena Casual;
@@ -31,48 +31,53 @@ body{
 /* Style the links inside the navigation bar */
 .navbar{
   text-align: center;
-  background-color: #EEEAE3;
+  background-color: #50258c;
   margin: 0;
   padding-bottom: 15px;
   
 }
 .navbar a {
-  color: #331800;
+  color: #ffffff;
   text-align: center;
   padding: 14px 10px;
   text-decoration: none;
+  background-color: #ef52e9;
+  border-radius: 12px;
+  margin-left: 10px;
 }
 
 /* Change the color of links on hover */
 .navbar a:hover {
-  background-color: #EEEAE3;
-  color: #DDA15E;
+  background-color: #c412bd;
+  color: #ffffff;
 }
 
 /* Add a color to the active/current link */
 .navbar a.active {
-  background-color: #EEEAE3;
-  color: white;
+  color: #ffffff;
 }
 
 /*footer*/
 .footer{
   height: auto;
   width: 900px;
-  background-color: #EEEAE3;
+   background-color: #50258c;
   margin: auto;
   text-align: center;
 }
 .footer a {
-  color: #331800;
+  background-color: #ef52e9;
+  color: #ffffff;
   text-align: center;
-  padding: 14px 10px;
   text-decoration: none;
+  border-radius: 12px;
+  padding: 14px 10px;
+  margin-left: 10px;
 }
 
 /* Change the color of links on hover */
 .footer a:hover {
-  color: #DDA15E;
+  background-color: #c412bd;
 }
 
 /* Add a color to the active/current link */
@@ -80,11 +85,19 @@ body{
   color: #331800;
 }
 a {
-  color: #331800;
+  color: #ffffff;
   text-decoration: none;
 }
 .a:hover{
-   color: #DDA15E;
+   color: #DDD6CE;
+}
+#namelink {
+  text-decoration: underline;
+  color: #ffffff;
+}
+#namelink:hover {
+  text-decoration: underline;
+  color: #50258c;
 }
 
 /* heading 2*/
