@@ -157,34 +157,34 @@ figure {
   text-indent: 0;
   margin: auto;
 }
-.base {
+.box {
     border-radius: 50%;
     behavior: url(PIE.htc);
     width: 100px;
     height: 100px;
 }
 
-.base_type1 {
+.boxa {
     background: #EF52E9;
     border: 2px solid black;
     display: inline-block;
 }
-.base_type2 {
+.boxb {
     background: #50258C;
     border: 2px solid black;
     display: inline-block;
 }
-.base_type3 {
+.boxc {
     background: #FFFFFF;
     border: 2px solid black;
     display: inline-block;
 }
-.base_type4 {
+.boxd {
     background: #C412BD;
     border: 2px solid black;
     display: inline-block;
 }
-.base_type5 {
+.boxe {
     background: #C69DEB;
     border: 2px solid black;
     display: inline-block;
