@@ -109,8 +109,6 @@ h2 {
 
 /* Main div */
 .info {
-  height: auto;
-  width: 900px;
   background-color: #c69deb;
   margin: auto;
   padding: 10px;
