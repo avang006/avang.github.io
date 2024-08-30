@@ -113,6 +113,7 @@ h2 {
   width: 900px;
   background-color: #c69deb;
   margin: auto;
+  padding: 10px;
 
 }
 
@@ -130,8 +131,9 @@ h2 {
   margin-right: auto;
 }
 .infomain {
-  padding: 40px;
+  padding: 10px;
   text-align: left;
+
 }
 
 /* Paragraph */
