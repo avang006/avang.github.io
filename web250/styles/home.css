@@ -118,7 +118,8 @@ h2 {
 /*Paragraph information*/
 .about {
   text-align: left;
-  padding: 10px;
+  width: 700px;
+  margin: auto;
 }
 
 /* Image */
@@ -129,9 +130,8 @@ h2 {
   margin-right: auto;
 }
 .infomain {
-  padding: 10px;
   text-align: left;
-
+  margin-left: auto;
 }
 
 /* Paragraph */
