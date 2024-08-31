@@ -131,7 +131,8 @@ h2 {
 }
 .infomain {
   text-align: left;
-  margin-left: auto;
+  margin: auto;
+  width: 700px;
 }
 
 /* Paragraph */
