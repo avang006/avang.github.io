@@ -14,7 +14,7 @@
 body{
   background-color: #50258c;
   margin: auto;
-  color: #ffffff;
+  color: #F8F0E3;
   font-size: 20px;
   font-family: BAHNSCHRIFT light;
   text-align: center;
@@ -38,7 +38,7 @@ body{
   
 }
 .navbar a {
-  color: #ffffff;
+  color: #F8F0E3;
   text-align: center;
   padding: 14px 10px;
   text-decoration: none;
@@ -50,12 +50,12 @@ body{
 /* Change the color of links on hover */
 .navbar a:hover {
   background-color: #c412bd;
-  color: #ffffff;
+  color: #F8F0E3;
 }
 
 /* Add a color to the active/current link */
 .navbar a.active {
-  color: #ffffff;
+  color: #F8F0E3;
 }
 
 /*footer*/
@@ -68,7 +68,7 @@ body{
 }
 .footer a {
   background-color: #ef52e9;
-  color: #ffffff;
+  color: #F8F0E3;
   text-align: center;
   text-decoration: none;
   border-radius: 12px;
@@ -86,7 +86,7 @@ body{
   color: #331800;
 }
 a {
-  color: #ffffff;
+  color: #F8F0E3;
   text-decoration: none;
 }
 .a:hover{
@@ -94,7 +94,7 @@ a {
 }
 #namelink {
   text-decoration: underline;
-  color: #ffffff;
+  color: #F8F0E3;
 }
 #namelink:hover {
   text-decoration: underline;
@@ -171,7 +171,7 @@ figure {
     display: inline-block;
 }
 .boxc {
-    background: #FFFFFF;
+    background: #F8F0E3;
     border: 2px solid black;
     display: inline-block;
 }
