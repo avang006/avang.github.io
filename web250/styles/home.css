@@ -1,22 +1,9 @@
-@font-face {
-  font-family: BAHNSCHRIFT light;
-  font-style: normal;
-  font-weight: 400;
-  src: local("BAHNSCHRIFT light"), url("https://avang006.github.io/WEB250/components/BAHNSCHRIFT.TTF");
-}
-@font-face {
-  font-family: Feena Casual;
-  font-style: normal;
-  font-weight: 400;
-  src: local("Feena Casual"), url("https://avang006.github.io/WEB250/components/FEENC__.TTF");
-}
-
 body{
   background-color: #50258c;
   margin: auto;
   color: #F8F0E3;
   font-size: 20px;
-  font-family: BAHNSCHRIFT light;
+  font-family: "Trirong", serif;
   text-align: center;
 }
 
@@ -25,7 +12,7 @@ body{
   background-color: #50258c;
   padding: 10px;
   text-align: center;
-  font-family: Feena Casual;
+  font-family: "Sofia", sans-serif;
   
 }
 
@@ -103,7 +90,7 @@ a {
 
 /* heading 2*/
 h2 {
-  font-family: BAHNSCHRIFT light;
+  font-family: "Sofia", sans-serif;
   text-align: center;
 }
 
@@ -201,8 +188,8 @@ th, td {
   padding-left: 10px;
 }
 .fonta {
-  font-family: BAHNSCHRIFT light;
+  font-family: "Trirong", serif;
 }
 .fonta {
-   font-family: Feena Casual;
+   font-family: "Sofia", sans-serif;
   }
