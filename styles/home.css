@@ -1,0 +1,195 @@
+body{
+  background-color: #50258c;
+  margin: auto;
+  color: #E4EBF7;
+  font-size: 20px;
+  font-family: "Trirong", serif;
+  text-align: center;
+}
+
+/* Header */
+.header{
+  background-color: #50258c;
+  padding: 10px;
+  text-align: center;
+  font-family: "Sofia", sans-serif;
+  
+}
+
+/* Style the links inside the navigation bar */
+.navbar{
+  text-align: center;
+  background-color: #50258c;
+  margin: 0;
+  padding-bottom: 15px;
+  
+}
+.navbar a {
+  color: #E4EBF7;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  background-color: #ef52e9;
+  border-radius: 12px;
+  margin-left: 10px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #c412bd;
+  color: #E4EBF7;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  color: #E4EBF7;
+}
+
+/*footer*/
+.footer{
+  height: auto;
+  background-color: #50258c;
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+}
+.footer a {
+  background-color: #ef52e9;
+  color: #E4EBF7;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 12px;
+  padding: 14px 10px;
+  margin-left: 10px;
+}
+
+/* Change the color of links on hover */
+.footer a:hover {
+  background-color: #c412bd;
+}
+
+/* Add a color to the active/current link */
+.footer a.active {
+  color: #331800;
+}
+a {
+  color: #E4EBF7;
+  text-decoration: none;
+}
+.a:hover{
+   color: #DDD6CE;
+}
+#namelink {
+  text-decoration: underline;
+  color: #E4EBF7;
+}
+#namelink:hover {
+  text-decoration: underline;
+  color: #50258c;
+}
+
+/* heading 2*/
+h2 {
+  font-family: "Sofia", sans-serif;
+  text-align: center;
+}
+
+/* Main div */
+.info {
+  background-color: #c69deb;
+  margin: auto;
+  padding: 10px;
+
+}
+
+/*Paragraph information*/
+.about {
+  text-align: left;
+  width: 700px;
+  margin: auto;
+}
+
+/* Image */
+.img {
+  width: 35%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.infomain {
+  text-align: left;
+  margin: auto;
+  width: 700px;
+}
+
+/* Paragraph */
+p {
+  text-align: center;
+}
+
+/* span */
+.style {
+  font-style: italic;
+}
+
+/*Letter weight*/
+.bold {
+  font-weight: bold;
+}
+
+/* Figure */
+figure {
+  width: auto;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  margin: auto;
+}
+
+.boxa {
+    background: #EF52E9;
+    border: 2px solid black;
+    display: inline-block;
+}
+.boxb {
+    background: #50258C;
+    border: 2px solid black;
+    display: inline-block;
+}
+.boxc {
+    background: #E4EBF7;
+    border: 2px solid black;
+    display: inline-block;
+}
+.boxd {
+    background: #C412BD;
+    border: 2px solid black;
+    display: inline-block;
+}
+.boxe {
+    background: #C69DEB;
+    border: 2px solid black;
+    display: inline-block;
+}
+.inside {
+  color: black;
+  padding-top: 15px;
+}
+table {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: auto;
+  
+}
+th, td {
+  border: none;
+  text-align: left;
+  padding-left: 10px;
+}
+.fonta {
+  font-family: "Trirong", serif;
+}
+.fonta {
+   font-family: "Sofia", sans-serif;
+  }
