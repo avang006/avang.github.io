@@ -79,6 +79,9 @@ a {
 .a:hover{
    color: #DDD6CE;
 }
+.link:hover{
+  color: #c412bd;
+}
 #namelink {
   text-decoration: underline;
   color: #E4EBF7;
