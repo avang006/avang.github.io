@@ -29,7 +29,7 @@ body{
   text-align: center;
   padding: 14px 10px;
   text-decoration: none;
-  background-color: #ef52e9;
+  background-color: #c69deb;
   border-radius: 12px;
   margin-left: 10px;
 }
@@ -54,7 +54,7 @@ body{
   padding: 50px;
 }
 .footer a {
-  background-color: #ef52e9;
+  background-color: #c69deb;
   color: #50258C;
   text-align: center;
   text-decoration: none;
@@ -140,12 +140,6 @@ figure {
   font-size: smaller;
   text-indent: 0;
   margin: auto;
-}
-
-.boxa {
-    background: #EF52E9;
-    border: 2px solid black;
-    display: inline-block;
 }
 .boxb {
     background: #50258C;
