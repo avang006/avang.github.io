@@ -26,7 +26,7 @@ body{
 .navbar a {
   color: #50258C;
   text-align: center;
-  padding: 14px;
+  padding: 15px;
   text-decoration: none;
   background-color: #c69deb;
   border-radius: 12px;
@@ -47,46 +47,38 @@ body{
 /*footer*/
 .footer{
   height: auto;
-  background-color: #50258c;
+ background-color: #50258c;
   margin: auto;
   text-align: center;
-  padding: 50px;
+  padding: 30px;
 }
 .footer a {
-  background-color: #c69deb;
   color: #50258C;
   text-align: center;
-  text-decoration: none;
-  border-radius: 12px;
   padding: 15px;
+  text-decoration: none;
+  background-color: #c69deb;
+  border-radius: 12px;
   margin-left: 10px;
-}
+ }
 
 /* Change the color of links on hover */
 .footer a:hover {
-  background-color: #E4EBF7;
+ background-color: #c412bd;
+ color: #E4EBF7;
 }
-
 /* Add a color to the active/current link */
 .footer a.active {
   color: #331800;
 }
-a {
-  color: #50258C;
-  text-decoration: none;
-}
-.a:hover{
-   color: #E4EBF7;
-}
-#namelink {
+.a {
   text-decoration: underline;
   color: #50258C;
 }
-#namelink:hover {
+.a a:hover {
   text-decoration: underline;
   color: #E4EBF7;
 }
-
 /* heading 2*/
 h2 {
   font-family: "Sofia", sans-serif;
@@ -98,16 +90,8 @@ main {
   background-color: #c69deb;
   margin: auto;
   color: #50258C;
-  width: 900px;
-  border-top: 10px solid #c69deb;
-  border-bottom: 10px solid #c69deb;
-}
-
-/*Paragraph information*/
-.about {
-  text-align: left;
-  width: 700px;
-  margin: auto;
+  width: 800px;
+  border: 20px solid #c69deb;
 }
 
 /* Image */
@@ -117,10 +101,9 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
-
 /* Paragraph */
 p {
-  text-align: center;
+  text-align: left;
 }
 /* bullet list*/
 ul {
