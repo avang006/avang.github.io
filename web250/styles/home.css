@@ -50,7 +50,7 @@ body{
   background-color: #50258c;
   margin: auto;
   text-align: center;
-  padding: 40px;
+  padding: 50px;
 }
 .footer a {
   background-color: #c69deb;
@@ -99,8 +99,7 @@ main {
   margin: auto;
   color: #50258C;
   width: 900px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 30px;
 }
 
 /*Paragraph information*/
