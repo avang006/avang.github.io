@@ -103,6 +103,7 @@ main {
 /* Paragraph */
 p {
   text-align: left;
+  margin: auto;
 }
 .center {
   text-align: center;
