@@ -20,14 +20,13 @@ body{
 .navbar{
   text-align: center;
   background-color: #50258c;
-  margin: 0;
-  padding-bottom: 15px;
+  padding: 50px;
   
 }
 .navbar a {
   color: #50258C;
   text-align: center;
-  padding: 14px 10px;
+  padding: 14px;
   text-decoration: none;
   background-color: #c69deb;
   border-radius: 12px;
@@ -51,7 +50,7 @@ body{
   background-color: #50258c;
   margin: auto;
   text-align: center;
-  padding: 50px;
+  padding: 40px;
 }
 .footer a {
   background-color: #c69deb;
@@ -59,7 +58,7 @@ body{
   text-align: center;
   text-decoration: none;
   border-radius: 12px;
-  padding: 14px 10px;
+  padding: 15px;
   margin-left: 10px;
 }
 
@@ -100,6 +99,8 @@ main {
   margin: auto;
   color: #50258C;
   width: 900px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /*Paragraph information*/
