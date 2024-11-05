@@ -91,7 +91,10 @@ main {
   margin: auto;
   color: #50258C;
   width: 800px;
-  border: 20px solid #c69deb;
+  border-top: 20px solid #c69deb;
+  border-bottom: 20px solid #c69deb;
+  border-left: 20px solid #c69deb;
+  border-right: 20px solid #c69deb;
 }
 
 /* Image */
