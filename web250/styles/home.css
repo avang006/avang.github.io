@@ -99,7 +99,9 @@ main {
   margin: auto;
   color: #50258C;
   width: 900px;
-  padding: 30px;
+  border-top: 10px solid #c69deb;
+  border-bottom: 10px solid #c69deb
+}
 }
 
 /*Paragraph information*/
