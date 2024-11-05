@@ -90,7 +90,8 @@ main {
   margin: auto;
   color: #50258C;
   width: 800px;
-  border: 20px solid #c69deb;
+  padding-top: 10px;
+  padding-bottom: 10px;
  }
 
 /* Image */
