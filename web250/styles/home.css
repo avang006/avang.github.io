@@ -93,10 +93,11 @@ main {
   width: 800px;
   border-top: 20px solid #c69deb;
   border-bottom: 20px solid #c69deb;
+}
+main {
   border-left: 20px solid #c69deb;
   border-right: 20px solid #c69deb;
 }
-
 /* Image */
 .img {
   width: 35%;
