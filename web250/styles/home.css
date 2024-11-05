@@ -46,7 +46,6 @@ body{
 
 /*footer*/
 .footer{
-  height: auto;
  background-color: #50258c;
   margin: auto;
   text-align: center;
@@ -93,11 +92,8 @@ main {
   width: 800px;
   border-top: 20px solid #c69deb;
   border-bottom: 20px solid #c69deb;
-}
-main {
-  border-left: 20px solid #c69deb;
-  border-right: 20px solid #c69deb;
-}
+ }
+
 /* Image */
 .img {
   width: 35%;
@@ -108,6 +104,9 @@ main {
 /* Paragraph */
 p {
   text-align: left;
+}
+.center {
+  text-align: center;
 }
 /* bullet list*/
 ul {
@@ -170,6 +169,6 @@ th, td {
 .fonta {
   font-family: "Trirong", serif;
 }
-.fonta {
+.fontb {
    font-family: "Sofia", sans-serif;
   }
