@@ -90,7 +90,7 @@ a:hover {
   color: #E4EBF7;
 }
 /* heading 2*/
-h2 {
+h2,h3 {
   font-family: "Sofia", sans-serif;
   text-align: center;
 }
@@ -183,4 +183,10 @@ th, td {
   border: none;
   text-align: left;
   padding-left: 10px;
+}
+fonta {
+    font-family: "Sofia", sans-serif;
+}
+fontb {
+    font-family: "Trirong", serif;
 }
