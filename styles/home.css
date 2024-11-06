@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.trirong-regular {
+  font-family: "Trirong", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.sofia-regular {
+  font-family: "Sofia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 body{
   background-color: #50258c;
   margin: auto;
@@ -20,16 +31,15 @@ body{
 .navbar{
   text-align: center;
   background-color: #50258c;
-  margin: 0;
-  padding-bottom: 15px;
+  padding: 50px;
   
 }
 .navbar a {
-  color: #E4EBF7;
+  color: #50258C;
   text-align: center;
-  padding: 14px 10px;
+  padding: 15px;
   text-decoration: none;
-  background-color: #ef52e9;
+  background-color: #c69deb;
   border-radius: 12px;
   margin-left: 10px;
 }
@@ -47,50 +57,38 @@ body{
 
 /*footer*/
 .footer{
-  height: auto;
-  background-color: #50258c;
+ background-color: #50258c;
   margin: auto;
   text-align: center;
   padding: 50px;
 }
 .footer a {
-  background-color: #ef52e9;
-  color: #E4EBF7;
+  color: #50258C;
   text-align: center;
+  padding: 15px;
   text-decoration: none;
+  background-color: #c69deb;
   border-radius: 12px;
-  padding: 14px 10px;
   margin-left: 10px;
-}
+ }
 
 /* Change the color of links on hover */
 .footer a:hover {
-  background-color: #c412bd;
+ background-color: #c412bd;
+ color: #E4EBF7;
 }
-
 /* Add a color to the active/current link */
 .footer a.active {
   color: #331800;
 }
 a {
-  color: #E4EBF7;
-  text-decoration: none;
+  text-decoration: underline;
+  color: #50258C;
 }
-.a:hover{
-   color: #DDD6CE;
-}
-.link:hover{
-  color: #c412bd;
-}
-#namelink {
+a:hover {
   text-decoration: underline;
   color: #E4EBF7;
 }
-#namelink:hover {
-  text-decoration: underline;
-  color: #50258c;
-}
-
 /* heading 2*/
 h2 {
   font-family: "Sofia", sans-serif;
@@ -98,18 +96,17 @@ h2 {
 }
 
 /* Main div */
-.info {
+main {
   background-color: #c69deb;
   margin: auto;
-  padding: 10px;
-
-}
-
-/*Paragraph information*/
-.about {
-  text-align: left;
-  width: 700px;
-  margin: auto;
+  color: #50258C;
+  width: 800px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ }
+main {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* Image */
@@ -119,17 +116,20 @@ h2 {
   margin-left: auto;
   margin-right: auto;
 }
-.infomain {
-  text-align: left;
-  margin: auto;
-  width: 700px;
-}
-
 /* Paragraph */
 p {
+  text-align: left;
+  margin: auto;
+  padding: 10px;
+  line-height: 2;
+}
+.center {
   text-align: center;
 }
-
+/* bullet list*/
+ul {
+  text-align: left;
+}
 /* span */
 .style {
   font-style: italic;
@@ -148,12 +148,6 @@ figure {
   font-size: smaller;
   text-indent: 0;
   margin: auto;
-}
-
-.boxa {
-    background: #EF52E9;
-    border: 2px solid black;
-    display: inline-block;
 }
 .boxb {
     background: #50258C;
@@ -190,9 +184,3 @@ th, td {
   text-align: left;
   padding-left: 10px;
 }
-.fonta {
-  font-family: "Trirong", serif;
-}
-.fonta {
-   font-family: "Sofia", sans-serif;
-  }
