@@ -81,16 +81,16 @@ body{
 .footer a.active {
   color: #331800;
 }
-.a {
+a {
   text-decoration: underline;
   color: #50258C;
 }
-.a a:hover {
+a:hover {
   text-decoration: underline;
   color: #E4EBF7;
 }
 /* heading 2*/
-h2 {
+h2,h3 {
   font-family: "Sofia", sans-serif;
   text-align: center;
 }
@@ -104,6 +104,10 @@ main {
   padding-top: 10px;
   padding-bottom: 10px;
  }
+main {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 /* Image */
 .img {
@@ -117,6 +121,7 @@ p {
   text-align: left;
   margin: auto;
   padding: 10px;
+  line-height: 2;
 }
 .center {
   text-align: center;
@@ -180,8 +185,11 @@ th, td {
   padding-left: 10px;
 }
 .fonta {
-  font-family: "Trirong", serif;
+    font-family: "Sofia", sans-serif;
 }
 .fontb {
-   font-family: "Sofia", sans-serif;
-  }
+    font-family: "Trirong", serif;
+}
+.center {
+    text-align: center;
+}
