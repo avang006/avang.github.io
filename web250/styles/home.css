@@ -166,6 +166,9 @@ table {
   margin: auto;
   
 }
+.color {
+  color: #E4EBF7;
+}
 th, td {
   border: none;
   text-align: left;
