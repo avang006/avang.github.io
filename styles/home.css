@@ -160,10 +160,6 @@ figure {
     border: 2px solid black;
     display: inline-block;
 }
-.inside {
-  color: black;
-  padding-top: 15px;
-}
 table {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -175,6 +171,7 @@ th, td {
   text-align: left;
   padding-left: 10px;
 }
+
 .fonta {
     font-family: "Sofia", sans-serif;
 }
