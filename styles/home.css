@@ -19,30 +19,30 @@ body{
 }
 
 /* Header */
-.header{
+header{
   background-color: #50258c;
-  padding: 10px;
   text-align: center;
-  font-family: "Sofia", sans-serif;
-  
+  line-height: 1;
 }
 
 /* Style the links inside the navigation bar */
 .navbar{
   text-align: center;
   background-color: #50258c;
-  padding: 50px;
-  
+  padding-bottom: 30px;
+  font-family: "Trirong", serif;
+  overflow: auto;
 }
 .navbar a {
   color: #50258C;
   text-align: center;
+  font-weight: bold;
   padding: 15px;
   text-decoration: none;
   background-color: #c69deb;
   border-radius: 12px;
-  margin-left: 10px;
-}
+  display: inline-block;
+ }
 
 /* Change the color of links on hover */
 .navbar a:hover {
@@ -57,19 +57,20 @@ body{
 
 /*footer*/
 .footer{
- background-color: #50258c;
+  background-color: #50258c;
   margin: auto;
   text-align: center;
-  padding: 50px;
+  padding: 30px;
 }
 .footer a {
+  font-weight: bold;
   color: #50258C;
   text-align: center;
-  padding: 15px;
+  padding: 10px;
   text-decoration: none;
   background-color: #c69deb;
   border-radius: 12px;
-  margin-left: 10px;
+  display: inline-block;
  }
 
 /* Change the color of links on hover */
@@ -90,23 +91,22 @@ a:hover {
   color: #E4EBF7;
 }
 /* heading 2*/
-h2,h3 {
+h1, h2,h3 {
   font-family: "Sofia", sans-serif;
   text-align: center;
 }
-
 /* Main div */
 main {
   background-color: #c69deb;
   margin: auto;
   color: #50258C;
-  width: 800px;
+  width: 790px;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 60px;
  }
 main {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 /* Image */
@@ -129,15 +129,6 @@ p {
 /* bullet list*/
 ul {
   text-align: left;
-}
-/* span */
-.style {
-  font-style: italic;
-}
-
-/*Letter weight*/
-.bold {
-  font-weight: bold;
 }
 
 /* Figure */
