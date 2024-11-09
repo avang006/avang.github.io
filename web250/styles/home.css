@@ -36,6 +36,7 @@ header{
 .navbar a {
   color: #50258C;
   text-align: center;
+  font-weight: bold;
   padding: 15px;
   text-decoration: none;
   background-color: #c69deb;
@@ -62,6 +63,7 @@ header{
   padding: 30px;
 }
 .footer a {
+  font-weight: bold;
   color: #50258C;
   text-align: center;
   padding: 10px;
@@ -93,14 +95,13 @@ h1, h2,h3 {
   font-family: "Sofia", sans-serif;
   text-align: center;
 }
-
 /* Main div */
 main {
   background-color: #c69deb;
   margin: auto;
   color: #50258C;
-  width: 750px;
-  padding-top: 60px;
+  width: 790px;
+  padding-top: 10px;
   padding-bottom: 60px;
  }
 main {
