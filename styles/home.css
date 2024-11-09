@@ -46,7 +46,7 @@ header{
 
 /* Change the color of links on hover */
 .navbar a:hover {
-  background-color: #c412bd;
+  background-color: #F684F2;
   color: #E4EBF7;
 }
 
@@ -75,7 +75,7 @@ header{
 
 /* Change the color of links on hover */
 .footer a:hover {
- background-color: #c412bd;
+ background-color: #F684F2;
  color: #E4EBF7;
 }
 /* Add a color to the active/current link */
@@ -151,7 +151,7 @@ figure {
     display: inline-block;
 }
 .boxd {
-    background: #C412BD;
+    background: #F684F2;
     border: 2px solid black;
     display: inline-block;
 }
@@ -165,6 +165,9 @@ table {
   padding-bottom: 30px;
   margin: auto;
   
+}
+.color {
+  color: #E4EBF7;
 }
 th, td {
   border: none;
