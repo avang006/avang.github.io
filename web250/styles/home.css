@@ -24,7 +24,10 @@ header{
   text-align: center;
   line-height: 1;
 }
-
+.tag {
+  margin-left: 550px;
+  line-height: .5;
+}
 /* Style the links inside the navigation bar */
 .navbar{
   text-align: center;
