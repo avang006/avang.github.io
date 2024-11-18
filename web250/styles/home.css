@@ -187,3 +187,26 @@ th, td {
 .center {
     text-align: center;
 }
+form{
+  margin: auto;
+}
+label {width:300px; height: 0px; display:block; padding: 8px; text-align: left; margin-left: 100px;}
+input { display:inline-block; height: 30px; width: 300px; margin-left: 300px;}
+
+.button {
+  background-color: #c69deb;
+  border-radius: 10px;
+  border-color: #50258C;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: auto;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-weight: bold;
+}
+.button:hover {
+  background-color: #F684F2;
+}
