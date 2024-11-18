@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <link rel = "stylesheet" href ="styles/home.css">
+      <title>Alyssa Vang | Absolute Violet | WEB250 | Home</title>
+      <script src="https://lint.page/kit/880bd5.js" crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <div data-include="components/header.html"></div>
+      <main>
+         <h2>Introduction Form</h2>
+               <form id="myForm">
+  
+      <input type="file" id="photo" accept="image/*" class="image">
+     <label for="caption">Add Caption for Image:</label>
+      <input type="text" id="caption" name="text" value="Playing mini golf at the Puttery" required>
+  
+ 
+    <label for="pbackground">Personal Background:</label>
+    <input type="text" id="personal" name="text" value="I am a Charlotte native. A wife and mother of three. I like to catch a good 5k run when I can." required>
+
+    <label for="abackground">Academic Background:</label>
+    <input type="text" id="academic" name="text" value="This is the last class that I need to complete my Full Stack Program." required>
+ 
+    <label for="sbackground">Background in this Subject:</label>
+    <input type="text" id="subject" name="text" value="No prior experience until I started my Full Stack Program." required>
+    
+    <label for="platform">Primary Computer Platform:</label>
+    <input type="text" id="platform" name="text" value="Windows 11 laptop/desktop" required>
+    
+    <label for="course">Courses I'm Taking &amp; Why:</label>
+     <input type="text" id="course" name="text" value="WEB 250: It is my last class to complete my program and I'm excited to learn about LAMP stack." required>
+    
+    <label for="fact">Funny/Interesting Item to Remember me by:</label>
+    <input type="text" id="fact" name="text" value="I’m the shortest person in my family, 4’11”." required><br><br>
+
+    <button type="submit" class="button">Submit</button>
+  </form>
+            </main>
+         <div data-include="components/footer.html"></div>
+         <script src="scripts/HTMLInclude.min.js"></script>
+   </body>
+</html>
