@@ -1,4 +1,4 @@
-const form = document.getElementById("myForm"); // Replace "myForm" with your form's ID
+const form = document.getElementById("myform");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault(); // Prevent default form submission
@@ -12,7 +12,6 @@ form.addEventListener("submit", (event) => {
   const platform = form.elements["platform"].value;
   const courses = form.elements["course"].value;
   const fact = form.elements["fact"].value;
-  // Access other form fields similarly
 
 function previewUserPhoto() {
     const userPhotoInput = document.getElementById('userPhoto');
@@ -32,7 +31,7 @@ function previewUserPhoto() {
   displayResults(userPhoto, caption, pbackground, abackground, sbackground, platform, courses, fact); // Call a function to display the results
 });
 function displayResults(userPhoto, caption, pbackground, abackground, sbackground, platform, courses, fact) {
-  const resultsDiv = document.getElementById("myForm"); 
+  const resultsDiv = document.getElementById("myform"); 
   // Replace "results" with the ID of the element where you want to display results
 
   resultsDiv.innerHTML = `
