@@ -14,9 +14,6 @@ form.addEventListener("submit", (event) => {
   const fact = form.elements["fact"].value;
   // Access other form fields similarly
 
-  // Display the results
-  displayResults(userPhoto, caption, pbackground, abackground, sbackground, platform, courses, fact); // Call a function to display the results
-});
 function previewUserPhoto() {
     const userPhotoInput = document.getElementById('userPhoto');
     const previewImage = document.getElementById('user-photo-preview');
@@ -30,7 +27,10 @@ function previewUserPhoto() {
 
         reader.readAsDataURL(userPhotoInput.files[0]);
     }
-}
+} 
+// Display the results
+  displayResults(userPhoto, caption, pbackground, abackground, sbackground, platform, courses, fact); // Call a function to display the results
+});
 function displayResults(userPhoto, caption, pbackground, abackground, sbackground, platform, courses, fact) {
   const resultsDiv = document.getElementById("myForm"); 
   // Replace "results" with the ID of the element where you want to display results
@@ -50,10 +50,11 @@ function displayResults(userPhoto, caption, pbackground, abackground, sbackgroun
               let content = '';
               for (let course of coursesList) {
                 let split = course.split(/\s+-\s+/);
-                content += `<li>${split[0]} - ${split[1]}</li>`;
+                content += `<li>${split[0]}</li>`;
               }
               return content;
             })()}</ul>
     <p style='text-align: left;'><strong>Funny/Interesting Item to Remember me by:</strong> ${fact}</p>
   `;
+  
    }
