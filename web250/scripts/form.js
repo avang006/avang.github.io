@@ -46,11 +46,11 @@ function displayResults(userPhoto, caption, pbackground, abackground, sbackgroun
     <p style='text-align: left;'><strong>Primary Computer Platform:</strong> ${platform}</p>
     <p style='text-align: left;'><strong>Courses I'm Taking and Why:</strong></p>
     <ul>${(() => {
-              let coursesList = courses.split('\n').map(course => course.trim()).filter(Boolean);
+              let coursesList = courses.split('\n').map((course) => course.trim()).filter(Boolean);
               let content = '';
               for (let course of coursesList) {
                 let split = course.split(/\s+-\s+/);
-                content += `<li>${split[0]}</li>`;
+                content += `<li>${split[0]} - ${split[1]}</li>`;
               }
               return content;
             })()}</ul>
