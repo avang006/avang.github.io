@@ -190,8 +190,22 @@ th, td {
 form{
   margin: auto;
 }
-label {width:300px; height: 0px; display:block; padding: 8px; text-align: left; margin-left: 100px;}
-input { display:inline-block; height: 30px; width: 300px; margin-left: 300px;}
+label {
+    display:block; 
+    padding: 8px; 
+    text-align: left; 
+    margin-left: 100px;
+}
+label {
+    width:300px; 
+    height: 0px;
+}
+input { 
+    display:inline-block; 
+    height: 30px; 
+    width: 300px; 
+    margin-left: 300px;
+}
 
 .button {
   background-color: #c69deb;
