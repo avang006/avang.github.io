@@ -1,4 +1,4 @@
-const form = document.getElementById("myform");
+const form = document.getElementById("myform"); // Replace "myForm" with your form's ID
 
 form.addEventListener("submit", (event) => {
   event.preventDefault(); // Prevent default form submission
@@ -12,7 +12,11 @@ form.addEventListener("submit", (event) => {
   const platform = form.elements["platform"].value;
   const courses = form.elements["course"].value;
   const fact = form.elements["fact"].value;
+  // Access other form fields similarly
 
+  // Display the results
+  displayResults(userPhoto, caption, pbackground, abackground, sbackground, platform, courses, fact); // Call a function to display the results
+});
 function previewUserPhoto() {
     const userPhotoInput = document.getElementById('userPhoto');
     const previewImage = document.getElementById('user-photo-preview');
@@ -26,10 +30,7 @@ function previewUserPhoto() {
 
         reader.readAsDataURL(userPhotoInput.files[0]);
     }
-} 
-// Display the results
-  displayResults(userPhoto, caption, pbackground, abackground, sbackground, platform, courses, fact); // Call a function to display the results
-});
+}
 function displayResults(userPhoto, caption, pbackground, abackground, sbackground, platform, courses, fact) {
   const resultsDiv = document.getElementById("myform"); 
   // Replace "results" with the ID of the element where you want to display results
@@ -39,17 +40,12 @@ function displayResults(userPhoto, caption, pbackground, abackground, sbackgroun
                 <img src="${URL.createObjectURL(userPhoto)}" alt="User Photo" style="display: block; margin: 0 auto; width: 250px;">
                 <figcaption style="font-style: italic;">${caption}</figcaption>
             </div>
-     resultsDiv.innerHTML = `
-  <div style="text-align: center;">
-                <img src="${URL.createObjectURL(userPhoto)}" alt="User Photo" style="display: block; margin: 0 auto; width: 250px;">
-                <figcaption style="font-style: italic;">${caption}</figcaption>
-            </div>
     <ul>
-    <li style='text-align: left;'><strong>Personal Background:</strong> ${pbackground}</li>
-    <li style='text-align: left;'><strong>Academic Background:</strong> ${abackground}</li>
-    <li style='text-align: left;'><strong>Background in this Subject:</strong> ${sbackground}</li>
-    <li style='text-align: left;'><strong>Primary Computer Platform:</strong> ${platform}</li>
-    <li style='text-align: left;'><strong>Courses I'm Taking and Why:</strong></li>
+    <li><strong>Personal Background:</strong> ${pbackground}</li>
+    <li><strong>Academic Background:</strong> ${abackground}</li>
+    <li><strong>Background in this Subject:</strong> ${sbackground}</li>
+    <li><strong>Primary Computer Platform:</strong> ${platform}</li>
+    <li><strong>Courses I'm Taking and Why:</strong></li>
     <ul>${(() => {
               let coursesList = courses.split('\n').map(course => course.trim()).filter(Boolean);
               let content = '';
@@ -59,7 +55,6 @@ function displayResults(userPhoto, caption, pbackground, abackground, sbackgroun
               }
               return content;
             })()}</ul>
-    <li style='text-align: left;'><strong>Funny/Interesting Item to Remember me by:</strong> ${fact}</li></ul>
+    <li><strong>Funny/Interesting Item to Remember me by:</strong> ${fact}</li></ul>
   `;
-  
    }
