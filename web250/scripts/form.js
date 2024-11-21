@@ -47,7 +47,7 @@ function displayResults(userPhoto, caption, pbackground, abackground, sbackgroun
     <li><strong>Primary Computer Platform:</strong> ${platform}</li>
     <li><strong>Courses I'm Taking and Why:</strong></li>
     <ul>${(() => {
-             let coursesList = courses.split('\n').map(course => course.trim().filter(Boolean));
+             let coursesList = courses.split('\n').map(course => course.trim()).filter(Boolean);
               let content = '';
               for (let course of coursesList) {
                 let split = course.split(/\s+-\s+/);
