@@ -39,13 +39,19 @@ function displayResults(userPhoto, caption, pbackground, abackground, sbackgroun
                 <img src="${URL.createObjectURL(userPhoto)}" alt="User Photo" style="display: block; margin: 0 auto; width: 250px;">
                 <figcaption style="font-style: italic;">${caption}</figcaption>
             </div>
-    <p style='text-align: left;'><strong>Personal Background:</strong> ${pbackground}</p>
-    <p style='text-align: left;'><strong>Academic Background:</strong> ${abackground}</p>
-    <p style='text-align: left;'><strong>Background in this Subject:</strong> ${sbackground}</p>
-    <p style='text-align: left;'><strong>Primary Computer Platform:</strong> ${platform}</p>
-    <p style='text-align: left;'><strong>Courses I'm Taking and Why:</strong></p>
+     resultsDiv.innerHTML = `
+  <div style="text-align: center;">
+                <img src="${URL.createObjectURL(userPhoto)}" alt="User Photo" style="display: block; margin: 0 auto; width: 250px;">
+                <figcaption style="font-style: italic;">${caption}</figcaption>
+            </div>
+    <ul>
+    <li style='text-align: left;'><strong>Personal Background:</strong> ${pbackground}</li>
+    <li style='text-align: left;'><strong>Academic Background:</strong> ${abackground}</li>
+    <li style='text-align: left;'><strong>Background in this Subject:</strong> ${sbackground}</li>
+    <li style='text-align: left;'><strong>Primary Computer Platform:</strong> ${platform}</li>
+    <li style='text-align: left;'><strong>Courses I'm Taking and Why:</strong></li>
     <ul>${(() => {
-              let coursesList = courses.split('\n').map((course) => course.trim()).filter(Boolean);
+              let coursesList = courses.split('\n').map(course => course.trim()).filter(Boolean);
               let content = '';
               for (let course of coursesList) {
                 let split = course.split(/\s+-\s+/);
@@ -53,7 +59,7 @@ function displayResults(userPhoto, caption, pbackground, abackground, sbackgroun
               }
               return content;
             })()}</ul>
-    <p style='text-align: left;'><strong>Funny/Interesting Item to Remember me by:</strong> ${fact}</p>
+    <li style='text-align: left;'><strong>Funny/Interesting Item to Remember me by:</strong> ${fact}</li></ul>
   `;
   
    }
