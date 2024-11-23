@@ -8,28 +8,31 @@
    </head>
 <header>
    <title>Home</title>
-   <div class="header">
-      <h1>Alyssa Vang | Absolute Violet | WEB250</h1>
-      <h2>
-         "Dance of the heart"
+      <h1>Alyssa Vang's Fuschia Dance Academy</h1>
+      <h2 class="tag">
+         Dance of the heart
       </h2>
-   </div>
    <nav class="navbar">
-      <a href="?p=home.php">Home</a>
-      <a href="?p=contract.php">Contract</a>
-      <a href="?p=introduction.php">Introduction</a>
-      <a href="?p=brand.php">Brand</a>
-      <a href="?p=demo.php">PHP Demo</a>
+      <a href="?p=contents/home.php">Home</a>
+      <a href="?p=contents/contract.php">Contract</a>
+      <a href="?p=contents/introduction.php">Introduction</a>
+      <a href="?p=contents/brand.php">Brand</a>
+      <a href="?p=demo2.php">PHP Demo</a>
    </nav>
 </header>
+<body>
+    
 <main>
+    
+<!-- dynamic content goes here -->
 <?php
 	$sPage = $_GET["p"];
 	//echo ("You picked the page: " . $sPage); 
 	
-	if($sPage == "") {  $sPage = "home.php"; }
+	if($sPage == "") {  $sPage = "contents/home.php"; }
 	include($sPage);
 ?>
+
 </main>
 <footer>
     <nav class="footer">             
@@ -45,5 +48,6 @@
            <p class="center">Designed by AV &copy;2024</p>
       </p></nav>
   </footer>
+  </body>
 </html>
   
