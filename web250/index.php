@@ -18,6 +18,8 @@
       <a href="?p=contents/introduction.php">Introduction</a>
       <a href="?p=contents/brand.php">Brand</a>
       <a href="?p=demo2.php">PHP Demo</a>
+      <a href="?p=contents/oneform_twoform.php">one form two form</a>
+
    </nav>
 </header>
 <body>
