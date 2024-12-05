@@ -1,5 +1,4 @@
 
-<?php include 'includes/header.php'; ?>
 <?php
 // define variables and set to empty values
 $firstErr = $lastErr = "";
@@ -44,8 +43,6 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
 }
 
  ?>
-   <body>
-      <main>
          <h2>Dancer Sign up form</h2>
          <h3>Post</h3>
          <form method="post" id="postform" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
@@ -53,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
   <br><br>
   Last Name: <input type="text" name="last" required>
   <br><br>
-  <input type="submit" name="submit" value="Submit">  
+  <input type="submit" class="button" name="submit" value="Submit">  
   </form>
   <h3>Get</h3>
   <form method="get" id="getform" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
@@ -61,7 +58,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
   <br><br>
   Last Name: <input type="text" name="last2" required>
   <br><br>
-  <input type="submit" name="submit" value="Submit">  
+  <input type="submit" class="button" name="submit" value="Submit">  
   </form>
 <hr>
 
@@ -84,7 +81,4 @@ echo "<br>";
 echo "Last Name: " ;
 echo $last2;
 ?>
-</main>
-</body>
-<?php include 'includes/footer.php'; ?>
-</html>
+
