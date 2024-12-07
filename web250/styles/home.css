@@ -224,3 +224,7 @@ input {
 .button:hover {
   background-color: #F684F2;
 }
+#bus {
+    background-color: transparent;
+    color: #50258C;
+}
